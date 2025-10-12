@@ -9,7 +9,6 @@ import {
 } from '@/lib/env';
 import {
   databases,
-  ensureSession,
   ID,
   safeGetDocument,
   safeListDocuments,
@@ -39,8 +38,8 @@ export const profiles = {
   },
   
   create: async (data: any) => {
-    // Ensure we have a valid session before creating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.createDocument(
       PROFILES_DATABASE_ID,
@@ -51,8 +50,8 @@ export const profiles = {
   },
   
   update: async (userId: string, data: any) => {
-    // Ensure we have a valid session before updating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.updateDocument(
       PROFILES_DATABASE_ID,
@@ -63,8 +62,8 @@ export const profiles = {
   },
   
   delete: async (userId: string) => {
-    // Ensure we have a valid session before deleting
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.deleteDocument(
       PROFILES_DATABASE_ID,
@@ -93,8 +92,8 @@ export const jobs = {
   },
   
   create: async (data: any) => {
-    // Ensure we have a valid session before creating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.createDocument(
       JOBS_DATABASE_ID,
@@ -105,8 +104,8 @@ export const jobs = {
   },
   
   update: async (jobId: string, data: any) => {
-    // Ensure we have a valid session before updating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.updateDocument(
       JOBS_DATABASE_ID,
@@ -117,8 +116,8 @@ export const jobs = {
   },
   
   delete: async (jobId: string) => {
-    // Ensure we have a valid session before deleting
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.deleteDocument(
       JOBS_DATABASE_ID,
@@ -147,8 +146,8 @@ export const wallets = {
   },
   
   create: async (data: any) => {
-    // Ensure we have a valid session before creating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.createDocument(
       FINANCE_DATABASE_ID,
@@ -159,8 +158,8 @@ export const wallets = {
   },
   
   update: async (walletId: string, data: any) => {
-    // Ensure we have a valid session before updating
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.updateDocument(
       FINANCE_DATABASE_ID,
@@ -171,8 +170,8 @@ export const wallets = {
   },
   
   delete: async (walletId: string) => {
-    // Ensure we have a valid session before deleting
-    await ensureSession();
+    // Session check removed - operations requiring authentication should be checked at component level
+    // This will throw an error if no authenticated session exists
     
     return await databases.deleteDocument(
       FINANCE_DATABASE_ID,

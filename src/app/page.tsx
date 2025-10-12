@@ -1,6 +1,6 @@
 "use client";
 
-import { databases, ensureSession,} from '@/utils/api';
+import { databases,} from '@/utils/api';
 import CommunitySection from '@/app/home0/sections/CommunitySection';
 import DownloadSection from '@/app/home0/sections/DownloadSection';
 import FeaturedProjects from '@/app/home0/sections/FeaturedProjects';
@@ -121,9 +121,7 @@ export default function HomePage() {
 
     async function init() {
       setLoadingJobs(true);
-      await ensureSession().catch(error => {
-        console.error("Error ensuring session:", error);
-      });
+      // Removed ensureSession() - homepage is public, no session needed
       
       try {
         const response = await databases.listDocuments(JOBS_DATABASE_ID, JOB_POSTINGS_COLLECTION_ID);

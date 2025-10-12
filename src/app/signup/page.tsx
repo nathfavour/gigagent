@@ -36,7 +36,7 @@ export default function SignUpPage() {
   const router = useRouter();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
-  const { isAnonymous, setIsAnonymous, initiateGitHubLogin, initiateGoogleLogin, convertSession, refreshUser } = useAuth();
+  const { isAnonymous, setIsAnonymous, initiateGitHubLogin, initiateGoogleLogin, refreshUser } = useAuth();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -82,27 +82,19 @@ export default function SignUpPage() {
     }
 
     try {
-      let response;
-
-      // If user has an anonymous session, convert it using the context function
-      if (isAnonymous) {
-        console.log('Converting anonymous session for:', formData.email);
-        response = await convertSession(formData.email, formData.password, formData.name);
-      } else {
-        // Regular signup flow
-        console.log('Performing regular signup for:', formData.email);
-        response = await signUp(formData.email, formData.password, formData.name);
-      }
+      // Always use regular signup flow (anonymous sessions removed)
+      console.log('Performing signup for:', formData.email);
+      const response = await signUp(formData.email, formData.password, formData.name);
 
       if (response) {
-        console.log('Signup/Conversion successful, redirecting...');
+        console.log('Signup successful, redirecting...');
         await refreshUser();
         router.push('/home');
       } else {
         setError('Signup failed. Please try again.');
       }
     } catch (error) {
-      console.error('Error during sign up/conversion:', error);
+      console.error('Error during sign up:', error);
       setError(`Failed to create account. ${error instanceof Error ? error.message : 'Email may already be in use or another error occurred.'}`);
     } finally {
       setIsLoading(false);

@@ -31,12 +31,15 @@ import {
   createGoogleOAuthSession,
   getUserProfile,
 } from '@/utils/api';
-import {
-  isAnonymousUser,
-} from '@/utils/guestSession'; // Use relative path for guestSession import
 
 const appwriteService = new AppwriteService(envConfig);
 const profileService = new ProfileService(appwriteService, envConfig);
+
+// Helper function to check if user is anonymous
+// Anonymous sessions are no longer created, but we keep this for backward compatibility
+function isAnonymousUser(user: Models.User<Models.Preferences> | null): boolean {
+  return !!user && !user.email;
+}
 
 // Define UserProfile interface based on the ProfilesDB/user_profiles schema
 interface UserProfile {
@@ -96,7 +99,6 @@ interface AuthContextType {
   initiateGitHubLogin: () => Promise<void>;
   initiateGoogleLogin: () => Promise<void>;
   ensureSession: () => Promise<Models.User<Models.Preferences> | null>;
-  convertSession: (email: string, password: string, name?: string) => Promise<Models.User<Models.Preferences>>;
   updatePassword: (currentPassword: string, newPassword: string) => Promise<boolean>;
   // New methods from AuthContext
   uploadImage?: (file: File) => Promise<void>;
@@ -126,7 +128,6 @@ const AuthContext = createContext<AuthContextType>({
   initiateGitHubLogin: async () => {},
   initiateGoogleLogin: async () => {},
   ensureSession: async () => null,
-  convertSession: async () => { throw new Error('convertSession not implemented in default context'); },
   updatePassword: async () => false,
   // New methods from AuthContext
   uploadImage: async () => {},
@@ -323,20 +324,8 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     }
   }, []);
 
-  const convertSession = useCallback(async (email: string, password: string, name?: string) => {
-    setIsLoading(true);
-    try {
-      const sessionUser = await apiConvertAnonymousSession(email, password, name ?? '');
-      await refreshUser();
-      return sessionUser;
-    } catch (error) {
-      console.error("Error converting anonymous session:", error);
-      await refreshUser();
-      throw error;
-    } finally {
-      setIsLoading(false);
-    }
-  }, [refreshUser]);
+  // REMOVED: convertSession - anonymous sessions no longer supported
+  // Users should use regular signUp() instead
 
   // Upload profile image
   const uploadImage = useCallback(async (file: File) => {
@@ -645,7 +634,6 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
     initiateGitHubLogin,
     initiateGoogleLogin,
     ensureSession,
-    convertSession,
     updatePassword,
     uploadImage,
     login,
