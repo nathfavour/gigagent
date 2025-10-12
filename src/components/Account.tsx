@@ -6,10 +6,12 @@ import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { NetworkSwitcher } from '@/components/wallet/NetworkSwitcher';
 import { signOut as apiSignOut, getUserProfile, getProfilePictureUrl } from '@/utils/api'; // Import signOut from api
+import { useAuthModal } from '@/hooks/useAuthModal';
 
 export function Account() {
   const { user, isAnonymous } = useAuth(); // Removed profilePicture from here
   const router = useRouter();
+  const { openSignIn, openSignUp } = useAuthModal();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const [headerProfilePicture, setHeaderProfilePicture] = useState<string | null>(null);
 
@@ -84,12 +86,12 @@ export function Account() {
 
   const handleLoginClick = () => {
     handleClose();
-    router.push('/signin');
+    openSignIn(); // Open auth modal instead of navigating
   };
 
   const handleCreateAccountClick = () => {
     handleClose();
-    router.push('/signup');
+    openSignUp(); // Open auth modal instead of navigating
   };
 
   // Format wallet address for display

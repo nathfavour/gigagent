@@ -296,32 +296,14 @@ async function createMagicURLSession(userId: string, secret: string) {
 }
 
 /**
- * Create an anonymous session for guests
- * This allows guests to access basic features without signing up
+ * REMOVED: createAnonymousSession
+ * Anonymous sessions are no longer supported to prevent session bloat
  */
-async function createAnonymousSession() {
-  try {
-    // First check if we already have a session to avoid creating duplicate sessions
-    try {
-      const user = await account.get();
-      console.log('User already has an active session:', user);
-      return user;
-    } catch (error) {
-      // No active session, proceed to create anonymous session
-    }
-    
-    const response = await account.createAnonymousSession();
-    console.log('Anonymous session created successfully:', response);
-    return response;
-  } catch (error) {
-    console.error('Error creating anonymous session:', error);
-    throw new Error(`Failed to create anonymous session: ${error instanceof Error ? error.message : 'Unknown error'}`);
-  }
-}
 
 /**
- * Check if user is authenticated, if not create an anonymous session
- * This ensures all users have at least guest access to permitted resources
+ * Check if user is authenticated
+ * Returns the user session if authenticated, or null if not
+ * NO LONGER creates anonymous sessions automatically
  */
 async function ensureSession() {
   try {
@@ -329,7 +311,7 @@ async function ensureSession() {
     const session = await account.get();
     return session;
   } catch (error) {
-    console.log('No active session detected, need to authenticate');
+    console.log('No active session detected');
     
     // Check if refreshing the session might help
     try {
@@ -350,16 +332,9 @@ async function ensureSession() {
       console.log('Error listing sessions:', sessionsError);
     }
     
-    // If we still don't have a session, create an anonymous one
-    try {
-      console.log('Creating anonymous session as fallback');
-      const anonymousSession = await createAnonymousSession();
-      // After creating the anonymous session, get the user
-      return await account.get();
-    } catch (anonymousError) {
-      console.error('Failed to create anonymous session:', anonymousError);
-      throw anonymousError; // Re-throw to indicate failure
-    }
+    // No session available - return null instead of creating anonymous session
+    console.log('No valid session found - authentication required for protected operations');
+    return null;
   }
 }
 
@@ -404,24 +379,10 @@ async function validateSession() {
 }
 
 /**
- * Convert anonymous session to permanent account
- * @param email User's email
- * @param password User's password
- * @param name User's name
+ * REMOVED: convertAnonymousSession
+ * Anonymous sessions are no longer supported
+ * Use regular signUp() instead
  */
-async function convertAnonymousSession(email: string, password: string, name: string) {
-  try {
-    const response = await account.updateEmail(email, password);
-    if (response) {
-      await account.updateName(name);
-    }
-    console.log('Anonymous account converted successfully');
-    return response;
-  } catch (error) {
-    console.error('Error converting anonymous account:', error);
-    throw new Error(`Failed to convert anonymous account: ${error instanceof Error ? error.message : 'Unknown error'}`);
-  }
-}
 
 /**
  * Email OTP Authentication functions
@@ -1510,8 +1471,6 @@ export {
   client,
   completeEmailVerification,
   completePasswordRecovery,
-  convertAnonymousSession,
-  createAnonymousSession,
   createEmailOTP,
   createEmailVerification,
   createGitHubOAuthSession,
