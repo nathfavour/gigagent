@@ -8,6 +8,7 @@ import AppLayout from '@/components/layout/AppLayout';
 import { AuthProvider } from '@/contexts/AuthContext';
 import { SuiWalletProvider } from '@/contexts/SuiWalletContext';
 import { Box, CssBaseline, CircularProgress } from '@mui/material';
+import AuthModalProvider from '@/components/auth/AuthModalProvider';
 
 // Xion integration removed: keep placeholder configuration if needed
 const xionConfig = null;
@@ -46,6 +47,7 @@ export default function RootLayout({
             <SuiWalletProvider>
               <ThemeProviderWrapper>
                 <CssBaseline />
+                <AuthModalProvider />
                 <Suspense fallback={
                   <Box sx={{
                     display: 'flex',
