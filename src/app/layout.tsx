@@ -1,77 +1,22 @@
-'use client';
+import type { Metadata } from 'next'
+import './globals.css'
+import LayoutClient from './layoutClient'
 
-import './globals.css';
-import { WEB3LANCER_CONTRACTS } from '@/utils/contractUtils';
-import { Suspense } from 'react';
-import { ThemeProviderWrapper } from '@/contexts/ThemeContext';
-import AppLayout from '@/components/layout/AppLayout';
-import { AuthProvider } from '@/contexts/AuthContext';
-import { SuiWalletProvider } from '@/contexts/SuiWalletContext';
-import { Box, CssBaseline, CircularProgress } from '@mui/material';
-import AuthModalProvider from '@/components/auth/AuthModalProvider';
-
-// Xion integration removed: keep placeholder configuration if needed
-const xionConfig = null;
+export const metadata: Metadata = {
+  title: 'GigAgent',
+  description: 'The marketplace for the agentic era.',
+}
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
-  // Check if the rendered page component has a static property 'noAppLayout'
-  // This works for Next.js layouts where children is a React element
-  const shouldSkipAppLayout =
-    (Array.isArray(children)
-      ? children.some(
-          (child: any) => child?.type?.noAppLayout
-        )
-      : (children as any)?.type?.noAppLayout);
-
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body style={{
-        margin: 0,
-        padding: 0,
-        overflowX: 'hidden',
-        scrollbarWidth: 'none',
-        msOverflowStyle: 'none',
-        WebkitOverflowScrolling: 'touch',
-        fontFamily: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
-      }}>
-        <style jsx global>{`
-          ::-webkit-scrollbar {
-            display: none;
-          }
-        `}</style>
-          <AuthProvider>
-            <SuiWalletProvider>
-              <ThemeProviderWrapper>
-                <CssBaseline />
-                <AuthModalProvider />
-                <Suspense fallback={
-                  <Box sx={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '100vh',
-                    flexDirection: 'column',
-                    gap: 2
-                  }}>
-                    <CircularProgress size={40} />
-                    <Box sx={{ mt: 2, fontSize: '1rem', color: 'text.secondary' }}>
-                      Loading GigAgent...
-                    </Box>
-                  </Box>
-                }>
-                  {shouldSkipAppLayout
-                    ? children
-                    : <AppLayout>{children}</AppLayout>
-                  }
-                </Suspense>
-              </ThemeProviderWrapper>
-            </SuiWalletProvider>
-          </AuthProvider>
+    <html lang="en" className="dark">
+      <body className="bg-void text-white selection:bg-primary selection:text-white">
+        <LayoutClient>{children}</LayoutClient>
       </body>
     </html>
-  );
+  )
 }
