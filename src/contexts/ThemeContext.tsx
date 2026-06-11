@@ -52,7 +52,7 @@ export const ThemeProviderWrapper = ({ children }: { children: ReactNode }) => {
       defaultTheme="system" 
       enableSystem 
       enableColorScheme
-      storageKey="web3lancer-theme"
+      storageKey="gigagent-theme"
     >
       <ThemeProvider>
         {children}

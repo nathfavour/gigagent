@@ -357,7 +357,7 @@ export default function Sidebar() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          © {new Date().getFullYear()} Web3Lancer
+          © {new Date().getFullYear()} GigAgent
         </motion.div>
       </Box>
     </Box>

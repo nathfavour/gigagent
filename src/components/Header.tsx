@@ -177,8 +177,8 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
               <Box sx={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
                 <Box sx={{ position: 'relative', width: 40, height: 40, mr: 2 }}>
                   <Image
-                    src="/logo/web3lancer.jpg"
-                    alt="Web3Lancer"
+                    src="/logo/gigagent.jpg"
+                    alt="GigAgent"
                     fill
                     style={{ objectFit: 'contain' }}
                   />
@@ -193,7 +193,7 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
                     fontWeight: 700,
                   }}
                 >
-                  Web3Lancer
+                  GigAgent
                 </Typography>
               </Box>
             </Link>
@@ -276,8 +276,8 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
             <Box sx={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
               <Box sx={{ position: 'relative', width: 40, height: 40, mr: 2 }}>
                 <Image
-                  src="/logo/web3lancer.jpg"
-                  alt="Web3Lancer"
+                  src="/logo/gigagent.jpg"
+                  alt="GigAgent"
                   fill
                   style={{ objectFit: 'contain' }}
                 />
@@ -292,7 +292,7 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
                   fontWeight: 700,
                 }}
               >
-                Web3Lancer
+                GigAgent
               </Typography>
             </Box>
           </Link>
@@ -318,8 +318,8 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
             <Box sx={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
               <Box sx={{ position: 'relative', width: 40, height: 40, mr: 2 }}>
                 <Image
-                  src="/logo/web3lancer.jpg"
-                  alt="Web3Lancer"
+                  src="/logo/gigagent.jpg"
+                  alt="GigAgent"
                   fill
                   style={{ objectFit: 'contain' }}
                 />
@@ -334,7 +334,7 @@ export default function Header({ isHomePage = false, isPreAuthPage = false }: He
                   fontWeight: 700,
                 }}
               >
-                Web3Lancer
+                GigAgent
               </Typography>
             </Box>
           </Link>

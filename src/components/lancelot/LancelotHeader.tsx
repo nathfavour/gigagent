@@ -44,7 +44,7 @@ export default function LancelotHeader() {
           mx: "auto",
         }}
       >
-        Get personalized help finding jobs, writing proposals, and navigating Web3Lancer. Ask anything or use a quick prompt!
+        Get personalized help finding jobs, writing proposals, and navigating GigAgent. Ask anything or use a quick prompt!
       </Typography>
     </Box>
   );

@@ -1,6 +1,6 @@
 
 /**
- * Centralized configuration for Web3Lancer smart contracts across different chains.
+ * Centralized configuration for GigAgent smart contracts across different chains.
  * Uses environment variables (NEXT_PUBLIC_...) for addresses and URLs where possible.
  */
 

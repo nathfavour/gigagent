@@ -1,7 +1,7 @@
 import { graphiteService } from '@/utils/graphite';
 
 /**
- * Smart Security Contracts implementation for Web3Lancer
+ * Smart Security Contracts implementation for GigAgent
  * Embeds compliance and KYC logic into project contracts
  */
 export class SmartSecurityManager {

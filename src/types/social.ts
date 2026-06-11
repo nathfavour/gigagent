@@ -1,4 +1,4 @@
-// filepath: /home/nathfavour/Documents/code/web3lancer/web3lancer/src/types/social.ts
+// filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/types/social.ts
 
 // Corresponds to SocialDB/user_connections
 export interface Connection {

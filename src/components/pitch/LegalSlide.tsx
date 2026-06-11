@@ -28,7 +28,7 @@ export default function LegalSlide() {
       >
         <Typography variant="h2" mb={2}>⚖️</Typography>
         <Typography variant="h6" color="grey.200" mb={2}>
-          Web3Lancer is open-source and decentralized, providing a foundation for legal data, compliance, and transparency tools. Our platform empowers justice innovation and transparent governance globally.
+          GigAgent is open-source and decentralized, providing a foundation for legal data, compliance, and transparency tools. Our platform empowers justice innovation and transparent governance globally.
         </Typography>
         <Stack direction="row" spacing={6} justifyContent="center" mt={4}>
           <Box textAlign="center">

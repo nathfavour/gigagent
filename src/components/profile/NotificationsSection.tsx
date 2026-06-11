@@ -130,7 +130,7 @@ export default function NotificationsSection() {
       </Box>
       
       <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
-        Customize how and when you receive notifications from Web3Lancer. You can choose different notification methods for different types of activities.
+        Customize how and when you receive notifications from GigAgent. You can choose different notification methods for different types of activities.
       </Typography>
       
       <Grid container spacing={3}>

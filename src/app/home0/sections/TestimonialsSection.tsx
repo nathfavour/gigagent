@@ -9,13 +9,13 @@ const testimonials = [
   {
     name: 'Alex Thomson',
     role: 'Blockchain Developer',
-    testimonial: 'Web3Lancer helped me find consistent high-quality blockchain projects. The payment protection gives me peace of mind and the community is fantastic!',
+    testimonial: 'GigAgent helped me find consistent high-quality blockchain projects. The payment protection gives me peace of mind and the community is fantastic!',
     avatar: 'https://randomuser.me/api/portraits/men/32.jpg'
   },
   {
     name: 'Sarah Williams',
     role: 'Project Manager at DeFi Corp',
-    testimonial: 'Finding qualified Web3 talent used to be a nightmare. Web3Lancer streamlined the process and connected us with amazing developers quickly!',
+    testimonial: 'Finding qualified Web3 talent used to be a nightmare. GigAgent streamlined the process and connected us with amazing developers quickly!',
     avatar: 'https://randomuser.me/api/portraits/women/44.jpg'
   },
   {

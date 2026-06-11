@@ -32,7 +32,7 @@ import React, {
 const HowItWorksSection: React.FC = () => (
   <Box py={8} textAlign="center">
     <Typography variant="h4" component="h2" gutterBottom sx={{ fontWeight: 'bold', mb: 4 }}>
-      How Web3Lancer Works
+      How GigAgent Works
     </Typography>
     <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4, justifyContent: 'center', mb: 5 }}>
       <Paper elevation={1} sx={{ p: 4, borderRadius: 3, flex: 1, maxWidth: { xs: '100%', md: '30%' } }}>
@@ -160,17 +160,17 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Web3Lancer – Decentralized Web3 Freelance Marketplace</title>
+        <title>GigAgent – Decentralized Web3 Freelance Marketplace</title>
         <meta name="description" content="Find top Web3 talent or your next blockchain project. Secure, decentralized, and community-driven freelance marketplace for the future of work." />
-        <meta property="og:title" content="Web3Lancer – Decentralized Web3 Freelance Marketplace" />
+        <meta property="og:title" content="GigAgent – Decentralized Web3 Freelance Marketplace" />
         <meta property="og:description" content="Find top Web3 talent or your next blockchain project. Secure, decentralized, and community-driven freelance marketplace for the future of work." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://web3lancer.xyz/" />
-        <meta property="og:image" content="https://web3lancer.xyz/og-image.png" />
+        <meta property="og:url" content="https://gigagent.xyz/" />
+        <meta property="og:image" content="https://gigagent.xyz/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Web3Lancer – Decentralized Web3 Freelance Marketplace" />
+        <meta name="twitter:title" content="GigAgent – Decentralized Web3 Freelance Marketplace" />
         <meta name="twitter:description" content="Find top Web3 talent or your next blockchain project. Secure, decentralized, and community-driven freelance marketplace for the future of work." />
-        <meta name="twitter:image" content="https://web3lancer.xyz/og-image.png" />
+        <meta name="twitter:image" content="https://gigagent.xyz/og-image.png" />
       </Head>
       <Box sx={{ 
         overflowX: 'hidden',
@@ -253,7 +253,7 @@ export default function HomePage() {
         <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 1 }}>
           <CTABanner 
             title="Ready to Start Your Next Web3 Project?"
-            subtitle="Join Web3Lancer today and connect with top talent or find exciting new opportunities."
+            subtitle="Join GigAgent today and connect with top talent or find exciting new opportunities."
             primaryButtonText="Find Talent"
             primaryButtonLink="/projects/post"
             secondaryButtonText="Browse Projects"

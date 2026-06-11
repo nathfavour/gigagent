@@ -1,4 +1,4 @@
-// filepath: /home/nathfavour/Documents/code/web3lancer/web3lancer/src/types/jobs.ts
+// filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/types/jobs.ts
 
 // Corresponds to JobsDB/job_postings
 export interface JobPosting {

@@ -54,12 +54,12 @@ export class GraphiteReputationService {
   }
 
   /**
-   * Combine Graphite trust score with existing Web3Lancer reputation
+   * Combine Graphite trust score with existing GigAgent reputation
    * Creates a hybrid reputation system
    */
   async getHybridReputationScore(userId: string, walletAddress?: string): Promise<number> {
     try {
-      // Get existing Web3Lancer reputation (0-5 scale)
+      // Get existing GigAgent reputation (0-5 scale)
       const stellarReputation = await this.getExistingStellarReputation(userId);
       
       // Get Graphite trust score if wallet provided

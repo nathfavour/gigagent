@@ -113,7 +113,7 @@ async function signUp(email: string, password: string, name: string) {
     // Send email verification after successful signup
     try {
           const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
       const verificationURL = `${baseURL}/verify-email`;
       await account.createVerification(verificationURL);
       console.log('Verification email sent');
@@ -181,7 +181,7 @@ async function listSessions() {
 async function createEmailVerification() {
   try {
     const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     const verificationURL = `${baseURL}/verify-email`;
     const response = await account.createVerification(verificationURL);
     console.log('Verification email sent successfully');
@@ -209,7 +209,7 @@ async function completeEmailVerification(userId: string, secret: string) {
 async function createPasswordRecovery(email: string) {
   try {
     const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     const recoveryURL = `${baseURL}/reset-password`;
     const response = await account.createRecovery(email, recoveryURL);
     console.log('Password recovery email sent successfully');
@@ -237,7 +237,7 @@ async function completePasswordRecovery(userId: string, secret: string, newPassw
 async function createMagicURLToken(email: string) {
   try {
     const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     
     // Create a unique user ID for new users or fetch existing ID
     let userId = ID.unique();
@@ -500,7 +500,7 @@ async function updateMfaChallenge(challengeId: string, otp: string) {
 async function createMfaEmailVerification() {
   try {
     const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     const verificationURL = `${baseURL}/verify-email`;
     const response = await account.createVerification(verificationURL);
     console.log('Email verification sent for MFA setup');
@@ -812,7 +812,7 @@ async function createGitHubOAuthSession(scopes: string[] = ['user:email']) {
   try {
     // Ensure base URL is correctly determined
     const baseURL = process.env.NEXT_PUBLIC_APP_URL || 
-                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+                   (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     const successUrl = `${baseURL}/auth/callback`; // Redirect to a dedicated callback page
     const failureUrl = `${baseURL}/signin?error=github_oauth_failed`; // Redirect back to signin on failure
 
@@ -834,7 +834,7 @@ async function createGitHubOAuthSession(scopes: string[] = ['user:email']) {
 
 async function createGoogleOAuthSession(scopes: string[] = ['email', 'profile']) {
   try {
-    const baseURL = process.env.NEXT_PUBLIC_APP_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://www.web3lancer.website');
+    const baseURL = process.env.NEXT_PUBLIC_APP_URL || (typeof window !== 'undefined' ? window.location.origin : 'https://www.gigagent.website');
     const successUrl = `${baseURL}/auth/callback`;
     const failureUrl = `${baseURL}/signin?error=google_oauth_failed`;
     await account.createOAuth2Session(

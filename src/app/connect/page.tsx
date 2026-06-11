@@ -744,7 +744,7 @@ export default function ConnectPage() {
                   </Box>
                   
                   <Box sx={{ mb: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                    <Typography variant="h6" sx={{ fontWeight: 600 }}>Discover Web3Lancers</Typography>
+                    <Typography variant="h6" sx={{ fontWeight: 600 }}>Discover GigAgents</Typography>
                     <Box sx={{ display: 'flex', gap: 1 }}>
                       <TextField
                         placeholder="Search users"

@@ -1,5 +1,5 @@
 /**
- * Environment configuration for Web3Lancer
+ * Environment configuration for GigAgent
  * 
  * This module provides centralized access to environment variables
  * and configuration settings across the application.

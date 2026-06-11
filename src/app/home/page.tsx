@@ -33,10 +33,10 @@ interface VisibilityOption {
 }
 
 export const generateMetadata = async (): Promise<Metadata> => {
-  const title = 'Web3Lancer Home - Decentralized Freelancing Platform';
-  const description = 'Your dashboard for projects, jobs, and collaboration in the Web3Lancer ecosystem.';
-  const image = '/logo/web3lancer.jpg';
-  const url = 'https://www.web3lancer.website/home';
+  const title = 'GigAgent Home - Decentralized Freelancing Platform';
+  const description = 'Your dashboard for projects, jobs, and collaboration in the GigAgent ecosystem.';
+  const image = '/logo/gigagent.jpg';
+  const url = 'https://www.gigagent.website/home';
   return {
     title,
     description,

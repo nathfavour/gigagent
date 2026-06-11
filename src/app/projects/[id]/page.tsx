@@ -5,9 +5,9 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   // Fetch project data (or use placeholder if not available)
   // You can replace this with a real fetch if needed
   const projectTitle = 'Project Details';
-  const projectDescription = 'View details and dispute voting for this project on Web3Lancer.';
-  const projectImage = '/logo/web3lancer.jpg';
-  const url = `https://www.web3lancer.website/projects/${params.id}`;
+  const projectDescription = 'View details and dispute voting for this project on GigAgent.';
+  const projectImage = '/logo/gigagent.jpg';
+  const url = `https://www.gigagent.website/projects/${params.id}`;
 
   return {
     title: projectTitle,

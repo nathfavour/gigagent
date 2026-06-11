@@ -63,8 +63,8 @@ export default function NotFound() {
           >
             <Box sx={{ position: 'relative', width: 150, height: 150, mb: 2, mx: 'auto' }}>
               <Image
-                src="/logo/web3lancer.jpg"
-                alt="Web3Lancer Logo"
+                src="/logo/gigagent.jpg"
+                alt="GigAgent Logo"
                 fill
                 style={{ 
                   objectFit: 'contain',
@@ -151,7 +151,7 @@ export default function NotFound() {
                 mb: 4
               }}
             >
-              Oops! The page you're looking for doesn't exist in the Web3Lancer universe.
+              Oops! The page you're looking for doesn't exist in the GigAgent universe.
             </Typography>
           </motion.div>
           

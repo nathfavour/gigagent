@@ -2,7 +2,7 @@
 
 ## Overview
 
-As of this update, Web3Lancer **no longer creates anonymous sessions**. This change prevents session bloat, reduces backend load, and eliminates issues with crawlers creating unnecessary sessions.
+As of this update, GigAgent **no longer creates anonymous sessions**. This change prevents session bloat, reduces backend load, and eliminates issues with crawlers creating unnecessary sessions.
 
 ## Key Changes
 

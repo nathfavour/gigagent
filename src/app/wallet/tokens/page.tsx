@@ -151,7 +151,7 @@ export default function TokensPage() {
         </Typography>
         
         <Typography variant="body1" paragraph>
-          Web3Lancer uses Stellar smart contracts for its reputation system and payments.
+          GigAgent uses Stellar smart contracts for its reputation system and payments.
         </Typography>
         
         <Typography variant="subtitle2">Contract Details:</Typography>
@@ -187,7 +187,7 @@ export default function TokensPage() {
         </Typography>
 
         <Typography variant="body1" paragraph>
-          Web3Lancer utilizes the Xion blockchain for core functionalities like project management, proposals, and dispute resolution via the `xioncontract`.
+          GigAgent utilizes the Xion blockchain for core functionalities like project management, proposals, and dispute resolution via the `xioncontract`.
         </Typography>
 
         <Typography variant="subtitle2">Contract Details:</Typography>

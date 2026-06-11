@@ -202,7 +202,7 @@ export default function SignUpPage() {
             Create Account
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 4, textAlign: 'center' }}>
-            Sign up to get started with Web3Lancer
+            Sign up to get started with GigAgent
           </Typography>
         </MotionBox>
         

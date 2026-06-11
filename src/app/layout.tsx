@@ -59,7 +59,7 @@ export default function RootLayout({
                   }}>
                     <CircularProgress size={40} />
                     <Box sx={{ mt: 2, fontSize: '1rem', color: 'text.secondary' }}>
-                      Loading Web3Lancer...
+                      Loading GigAgent...
                     </Box>
                   </Box>
                 }>

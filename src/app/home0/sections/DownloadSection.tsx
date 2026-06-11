@@ -67,7 +67,7 @@ export default function DownloadSection() {
               WebkitTextFillColor: 'transparent',
             }}
           >
-            Get Web3Lancer on Your Device
+            Get GigAgent on Your Device
           </Typography>
 
           <Typography 
@@ -125,7 +125,7 @@ export default function DownloadSection() {
                       Download for iOS
                     </Typography>
                     <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-                      Get the full Web3Lancer experience on your iPhone. Receive instant notifications for new opportunities and manage your projects on the go.
+                      Get the full GigAgent experience on your iPhone. Receive instant notifications for new opportunities and manage your projects on the go.
                     </Typography>
                   </Box>
                   
@@ -198,7 +198,7 @@ export default function DownloadSection() {
                       Download for Android
                     </Typography>
                     <Typography variant="body1" color="text.secondary" sx={{ mb: 3 }}>
-                      Experience Web3Lancer on your Android device with our pre-release app. Be among the first to try out our mobile features and provide feedback.
+                      Experience GigAgent on your Android device with our pre-release app. Be among the first to try out our mobile features and provide feedback.
                     </Typography>
                   </Box>
                   
@@ -222,7 +222,7 @@ export default function DownloadSection() {
                           boxShadow: '0 6px 20px rgba(61, 220, 132, 0.35)',
                         }
                       }}
-                      href="https://github.com/web3lancer/web3lancer/releases"
+                      href="https://github.com/gigagent/gigagent/releases"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

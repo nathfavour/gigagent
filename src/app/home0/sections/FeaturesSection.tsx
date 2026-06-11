@@ -71,7 +71,7 @@ export default function FeaturesSection() {
                 WebkitTextFillColor: 'transparent',
               }}
             >
-              Why Choose Web3Lancer
+              Why Choose GigAgent
             </Typography>
             
             <Typography
@@ -175,7 +175,7 @@ export default function FeaturesSection() {
               color="text.secondary"
               sx={{ mb: 10, maxWidth: 700, mx: 'auto', lineHeight: 1.6 }}
             >
-              Simple steps to get started with Web3Lancer
+              Simple steps to get started with GigAgent
             </Typography>
             
             <Box sx={{ position: 'relative' }}>

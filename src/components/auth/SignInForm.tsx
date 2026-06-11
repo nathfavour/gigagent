@@ -118,7 +118,7 @@ export default function SignInForm() {
         </Typography>
         
         <Typography variant="body1" color="text.secondary" sx={{ mb: 4 }}>
-          Welcome back to Web3Lancer
+          Welcome back to GigAgent
         </Typography>
         
         {error && (

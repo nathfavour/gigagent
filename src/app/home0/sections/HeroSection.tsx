@@ -72,8 +72,8 @@ export default function HeroSection() {
             >
               <Box sx={{ position: 'relative', width: 42, height: 42, mr: 2 }}>
                 <Image
-                  src="/logo/web3lancer.jpg"
-                  alt="Web3Lancer"
+                  src="/logo/gigagent.jpg"
+                  alt="GigAgent"
                   fill
                   style={{ objectFit: 'contain', borderRadius: '8px' }}
                 />
@@ -88,7 +88,7 @@ export default function HeroSection() {
                   fontSize: { xs: '1.15rem', md: '1.25rem' },
                 }}
               >
-                Web3Lancer
+                GigAgent
               </Typography>
             </Box>
           </Box>
@@ -112,7 +112,7 @@ export default function HeroSection() {
               <Button 
                 color="inherit" 
                 component={Link} 
-                href="/web3lancers"
+                href="/gigagents"
                 sx={{ 
                   fontWeight: 500,
                   '&:hover': {
@@ -175,8 +175,8 @@ export default function HeroSection() {
             <Box sx={{ display: 'flex', alignItems: 'center' }}>
               <Box sx={{ position: 'relative', width: 36, height: 36, mr: 1.5 }}>
                 <Image
-                  src="/logo/web3lancer.jpg"
-                  alt="Web3Lancer"
+                  src="/logo/gigagent.jpg"
+                  alt="GigAgent"
                   fill
                   style={{ objectFit: 'contain', borderRadius: '6px' }}
                 />
@@ -190,7 +190,7 @@ export default function HeroSection() {
                   fontWeight: 700,
                 }}
               >
-                Web3Lancer
+                GigAgent
               </Typography>
             </Box>
             <IconButton onClick={() => setMobileMenuOpen(false)}>
@@ -399,7 +399,7 @@ export default function HeroSection() {
               >
                 <Image
                   src="/images/earn.jpg"
-                  alt="Earn with Web3Lancer"
+                  alt="Earn with GigAgent"
                   fill
                   style={{ objectFit: 'cover', borderRadius: '16px' }}
                   sizes="(max-width: 600px) 90vw, (max-width: 900px) 70vw, 480px"

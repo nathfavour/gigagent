@@ -1,4 +1,4 @@
-// filepath: /home/nathfavour/Documents/code/web3lancer/web3lancer/src/types/governance.ts
+// filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/types/governance.ts
 
 /**
  * Types for Disputes and Governance

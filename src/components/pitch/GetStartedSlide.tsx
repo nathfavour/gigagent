@@ -28,8 +28,8 @@ export default function GetStartedSlide() {
         }}
       >
         <Typography component="pre" variant="body1" sx={{ textAlign: "left", color: "green.400" }}>
-          {`git clone https://github.com/web3lancer/web3lancer.git
-cd web3lancer
+          {`git clone https://github.com/gigagent/gigagent.git
+cd gigagent
 npm install
 npm run dev`}
         </Typography>

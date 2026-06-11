@@ -119,7 +119,7 @@ export default function AdsPageClient() {
             variant="h6"
             sx={{ opacity: 0.92, fontWeight: 500, mb: 0.5 }}
           >
-            Promote your jobs, projects, or services to the Web3Lancer community.
+            Promote your jobs, projects, or services to the GigAgent community.
           </Typography>
         </Box>
       </Container>

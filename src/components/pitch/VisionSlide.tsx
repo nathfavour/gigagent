@@ -12,8 +12,8 @@ export default function VisionSlide() {
       sx={{ color: "common.white" }}
     >
       <Avatar
-        src="/logo/web3lancer.jpg"
-        alt="Web3Lancer Logo"
+        src="/logo/gigagent.jpg"
+        alt="GigAgent Logo"
         sx={{
           width: 160,
           height: 160,
@@ -31,7 +31,7 @@ export default function VisionSlide() {
           WebkitTextFillColor: "transparent",
         }}
       >
-        Web3Lancer
+        GigAgent
       </Typography>
       <Typography variant="h5" maxWidth={600} color="grey.200">
         Bridging traditional freelancing with blockchain innovation. A borderless platform where freelancers and businesses connect, collaborate, and transact with unprecedented transparency in a community reputation-based system.

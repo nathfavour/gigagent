@@ -1,4 +1,4 @@
-// filepath: /home/nathfavour/Documents/code/web3lancer/web3lancer/src/services/activityService.ts
+// filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/services/activityService.ts
 import { AppwriteService } from '@/services/appwriteService';
 import {
     ACTIVITY_DATABASE_ID,

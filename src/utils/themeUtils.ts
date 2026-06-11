@@ -3,7 +3,7 @@ import {
   Theme,
 } from '@mui/material';
 
-// filepath: /home/nathfavour/Documents/code/web3lancer/web3lancer/src/utils/themeUtils.ts
+// filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/utils/themeUtils.ts
 
 
 /**

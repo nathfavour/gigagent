@@ -100,7 +100,7 @@ export default function VotingPage() {
               Community Voting System
             </Typography>
             <Typography variant="body1">
-              Help resolve disputes between clients and freelancers by casting your vote. Your participation ensures fair resolutions and strengthens the Web3Lancer community.
+              Help resolve disputes between clients and freelancers by casting your vote. Your participation ensures fair resolutions and strengthens the GigAgent community.
             </Typography>
           </Grid>
           <Grid item xs={12} md={4} sx={{ textAlign: { xs: 'left', md: 'right' } }}>

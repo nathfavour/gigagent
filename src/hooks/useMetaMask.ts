@@ -14,7 +14,7 @@ interface MetaMaskState {
 const initializeMetaMaskSDK = () => {
   return new MetaMaskSDK({
     dappMetadata: {
-      name: 'Web3Lancer',
+      name: 'GigAgent',
       url: typeof window !== 'undefined' ? window.location.href : '',
     },
     // Recommended options to minimize user friction

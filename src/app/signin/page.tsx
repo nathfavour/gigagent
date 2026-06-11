@@ -169,7 +169,7 @@ export default function SignInPage() {
             Welcome Back
           </Typography>
           <Typography variant="body1" color="text.secondary" sx={{ mb: 4, textAlign: 'center' }}>
-            Sign in to continue to Web3Lancer
+            Sign in to continue to GigAgent
           </Typography>
         </MotionBox>
         

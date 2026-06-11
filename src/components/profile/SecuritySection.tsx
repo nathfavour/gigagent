@@ -272,7 +272,7 @@ export default function SecuritySection({ section }: SecuritySectionProps) {
         </Typography>
         
         <Typography variant="body2" color="text.secondary" sx={{ mb: 3 }}>
-          Manage the external accounts connected to your Web3Lancer profile. Connected accounts can be used for login and authentication.
+          Manage the external accounts connected to your GigAgent profile. Connected accounts can be used for login and authentication.
         </Typography>
         
         <Paper sx={{ p: 3, mb: 4 }}>

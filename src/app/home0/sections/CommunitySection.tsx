@@ -131,10 +131,10 @@ export default function CommunitySection() {
 function SocialButtons() {
   const theme = useTheme();
   const socialNetworks = [
-    { icon: <TwitterIcon />, color: '#1DA1F2', name: 'Twitter', url: 'https://x.com/web3lancerr' },
-    { icon: <GitHubIcon />, color: '#333', name: 'GitHub', url: 'https://github.com/web3lancer' }, // Changed GitHub icon color for better contrast
-    { icon: <TelegramIcon />, color: '#0088cc', name: 'Telegram', url: 'https://t.me/web3lancerr' },
-    { icon: <LinkedInIcon />, color: '#0077B5', name: 'LinkedIn', url: 'https://linkedin.com/company/web3lancer' },
+    { icon: <TwitterIcon />, color: '#1DA1F2', name: 'Twitter', url: 'https://x.com/gigagentr' },
+    { icon: <GitHubIcon />, color: '#333', name: 'GitHub', url: 'https://github.com/gigagent' }, // Changed GitHub icon color for better contrast
+    { icon: <TelegramIcon />, color: '#0088cc', name: 'Telegram', url: 'https://t.me/gigagentr' },
+    { icon: <LinkedInIcon />, color: '#0077B5', name: 'LinkedIn', url: 'https://linkedin.com/company/gigagent' },
   ];
 
   return (
@@ -156,7 +156,7 @@ function SocialButtons() {
             href={social.url}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label={`Visit Web3Lancer on ${social.name}`}
+            aria-label={`Visit GigAgent on ${social.name}`}
             sx={{
               width: { xs: 56, sm: 64 },
               height: { xs: 56, sm: 64 },

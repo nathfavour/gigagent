@@ -5,7 +5,7 @@ import {
 } from '@/lib/env';
 
 /**
- * Transaction utilities for Web3Lancer
+ * Transaction utilities for GigAgent
  */
 
 
