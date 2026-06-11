@@ -1,9 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { Box, Typography, Button, Container, useTheme, Paper } from '@mui/material';
+import { Box, Typography, Button, Container, useTheme, Paper } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import { ErrorOutline } from '@mui/icons-material';
 import Image from 'next/image';
 // This ensures the 404 page can be properly styled without sidebars
 import { useEffect } from 'react';

@@ -1,6 +1,5 @@
-import { Box, Typography, IconButton, Tooltip, useTheme } from "@mui/material";
+import { Box, Typography, IconButton, Tooltip, useTheme } from '@/components/ui/MuiShim';
 import { Badge } from "@/components/ui/badge";
-import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 
 export default function LancelotPrompts() {
   const theme = useTheme();

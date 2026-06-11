@@ -11,10 +11,9 @@ import {
   CircularProgress,
   InputAdornment,
   IconButton
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { createPasswordRecovery, completePasswordRecovery } from '@/utils/api';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { Visibility, VisibilityOff, LockReset, Email } from '@mui/icons-material';
 import Link from 'next/link';
 
 export default function ResetPassword() {

@@ -1,9 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeIcon from '@mui/icons-material/Home';
-import WorkIcon from '@mui/icons-material/Work';
-import GroupIcon from '@mui/icons-material/Group';
-import HowToVoteIcon from '@mui/icons-material/HowToVote';
 
 const navLinks = [
   { name: 'Home', href: '/', icon: <HomeIcon /> },

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Paper, Typography, Button, Box } from '@mui/material';
-import { ErrorOutline } from '@mui/icons-material';
+import { Paper, Typography, Button, Box } from '@/components/ui/MuiShim';
 
 interface ErrorStateProps {
   message: string;

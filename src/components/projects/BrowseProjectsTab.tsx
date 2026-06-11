@@ -13,8 +13,7 @@ import {
   Paper,
   TextField,
   InputAdornment
-} from "@mui/material";
-import SearchIcon from '@mui/icons-material/Search';
+} from '@/components/ui/MuiShim';
 import Link from 'next/link';
 import { listProfiles } from "@/lib/appwrite";
 import type { Profiles } from "@/types/appwrite.d";

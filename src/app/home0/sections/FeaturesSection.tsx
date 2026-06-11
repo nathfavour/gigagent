@@ -1,12 +1,6 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent, Container, Avatar, useTheme } from '@mui/material';
+import { Box, Typography, Grid, Card, CardContent, Container, Avatar, useTheme } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import ShieldOutlinedIcon from '@mui/icons-material/ShieldOutlined';
-import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
-import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
-import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
-import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
-import HandshakeOutlinedIcon from '@mui/icons-material/HandshakeOutlined';
 
 const MotionCard = motion(Card);
 const MotionBox = motion(Box);

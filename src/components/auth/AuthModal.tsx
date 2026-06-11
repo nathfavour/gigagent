@@ -15,7 +15,7 @@ import {
   Alert,
   Fade,
   IconButton,
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import {
   Close as CloseIcon,
   GitHub,
@@ -23,7 +23,6 @@ import {
   Link as LinkIcon,
   Google as GoogleIcon,
   Login,
-} from '@mui/icons-material';
 import { useAuth } from '@/contexts/AuthContext';
 import { signIn, signUp, createMagicURLToken } from '@/utils/api';
 import { useRouter } from 'next/navigation';

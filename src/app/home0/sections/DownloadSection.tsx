@@ -1,9 +1,6 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent, Button, Container, useTheme, useMediaQuery } from '@mui/material';
+import { Box, Typography, Grid, Card, CardContent, Button, Container, useTheme, useMediaQuery } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import AppleIcon from '@mui/icons-material/Apple';
-import AndroidIcon from '@mui/icons-material/Android';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 
 const MotionCard = motion(Card);
 

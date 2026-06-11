@@ -13,9 +13,7 @@ import {
   Tab,
   Divider,
   IconButton,
-} from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
-import GroupAddIcon from "@mui/icons-material/GroupAdd";
+} from '@/components/ui/MuiShim';
 import GroupsList from "@/components/groups/GroupsList";
 import GroupPanel from "@/components/groups/GroupPanel";
 import CreateGroupDialog from "@/components/groups/CreateGroupDialog";

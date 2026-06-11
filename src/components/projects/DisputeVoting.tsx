@@ -18,11 +18,8 @@ import {
   Chip,
   LinearProgress,
   Paper
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 // Abstraxion/Xion removed
-import PersonIcon from '@mui/icons-material/Person';
-import HowToVoteIcon from '@mui/icons-material/HowToVote';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { 
   getXionContractAddress, 
   voteOnDisputeMsg, 

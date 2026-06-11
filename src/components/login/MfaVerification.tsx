@@ -11,12 +11,11 @@ import {
   Tabs,
   Tab,
   InputAdornment
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Security,
   Key,
   Email
-} from '@mui/icons-material';
 import { 
   createMfaChallenge, 
   updateMfaChallenge 

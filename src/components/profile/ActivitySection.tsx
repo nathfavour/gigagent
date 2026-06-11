@@ -1,7 +1,6 @@
 import React from 'react';
-import { Box, Paper, Typography, List, ListItem, ListItemAvatar, Avatar, ListItemText, Divider, Chip, Button } from '@mui/material';
+import { Box, Paper, Typography, List, ListItem, ListItemAvatar, Avatar, ListItemText, Divider, Chip, Button } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import TimelineIcon from '@mui/icons-material/Timeline';
 
 interface Activity {
   id: string;

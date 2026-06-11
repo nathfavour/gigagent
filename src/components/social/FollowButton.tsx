@@ -1,7 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { Button, CircularProgress, Typography } from '@mui/material';
-import PersonAddIcon from '@mui/icons-material/PersonAdd';
-import PersonRemoveIcon from '@mui/icons-material/PersonRemove';
+import { Button, CircularProgress, Typography } from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import {
   getConnection,

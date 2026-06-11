@@ -1,8 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Box, Typography, Skeleton, Stack, Chip } from '@mui/material';
-import PeopleIcon from '@mui/icons-material/People';
-import PersonIcon from '@mui/icons-material/Person';
-import LinkIcon from '@mui/icons-material/Link';
+import { Box, Typography, Skeleton, Stack, Chip } from '@/components/ui/MuiShim';
 import { getFollowersCount, getFollowingCount, getConnectionsCount } from '@/utils/api';
 
 interface SocialStatsProps {

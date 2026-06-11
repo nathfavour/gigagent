@@ -1,8 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { Button, CircularProgress, Typography, Tooltip } from '@mui/material';
-import LinkIcon from '@mui/icons-material/Link';
-import LinkOffIcon from '@mui/icons-material/LinkOff';
-import HourglassEmptyIcon from '@mui/icons-material/HourglassEmpty';
+import { Button, CircularProgress, Typography, Tooltip } from '@/components/ui/MuiShim';
 import { getConnectionStatus, toggleConnectUsers } from '@/utils/api';
 import { useAuth } from '@/contexts/AuthContext';
 

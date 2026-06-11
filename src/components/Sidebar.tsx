@@ -1,7 +1,6 @@
 "use client";
 
-import { Drawer, List, ListItemText, ListItemIcon, Box, BottomNavigation, BottomNavigationAction, Divider, ListItemButton, useTheme, useMediaQuery, Avatar, Button, Typography, Menu, MenuItem, ListItem, Tooltip, Fade, ButtonBase, Popper, Paper, ClickAwayListener, MenuList } from "@mui/material";
-import { Dashboard, Work, Bookmarks, Storefront, Person, People, Groups, Loyalty, CampaignOutlined, MoreHoriz } from "@mui/icons-material";
+import { Drawer, List, ListItemText, ListItemIcon, Box, BottomNavigation, BottomNavigationAction, Divider, ListItemButton, useTheme, useMediaQuery, Avatar, Button, Typography, Menu, MenuItem, ListItem, Tooltip, Fade, ButtonBase, Popper, Paper, ClickAwayListener, MenuList } from '@/components/ui/MuiShim';
 import { useRouter, usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from "framer-motion";
 import React, { useState, useEffect, useMemo, useRef } from "react";

@@ -1,11 +1,6 @@
 import React from 'react';
-import { Box, Typography, Button, Stack, IconButton, Container, useTheme } from '@mui/material';
+import { Box, Typography, Button, Stack, IconButton, Container, useTheme } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline'; // Corrected import
 
 const MotionBox = motion(Box);
 

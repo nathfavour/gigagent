@@ -17,7 +17,7 @@ import {
   Alert,
   Chip,
   Grid
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Notifications, 
   Email, 
@@ -28,7 +28,6 @@ import {
   Payment,
   Message,
   Save
-} from '@mui/icons-material';
 import { motion } from 'framer-motion';
 
 export default function NotificationsSection() {

@@ -4,18 +4,9 @@ import {
   Typography, Grid, Avatar, Button, Alert, CircularProgress,
   TextField, IconButton, Tabs, Tab, Badge, List, ListItem, ListItemAvatar, ListItemText, 
   Box, Container, Paper, Chip, InputAdornment, useTheme, ListItemButton
-} from "@mui/material";
+} from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import { motion } from 'framer-motion';
-import SendIcon from '@mui/icons-material/Send';
-import VideoCallIcon from '@mui/icons-material/VideoCall';
-import CallIcon from '@mui/icons-material/Call';
-import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
-import GroupsOutlinedIcon from '@mui/icons-material/GroupsOutlined';
-import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
-import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
-import SearchIcon from '@mui/icons-material/Search';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { useRouter } from 'next/navigation';
 import { v4 as uuidv4 } from 'uuid';
 import * as social from '@/lib/appwrites/social';

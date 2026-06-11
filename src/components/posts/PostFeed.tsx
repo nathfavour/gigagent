@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, CircularProgress, Button, Alert, Paper } from '@mui/material';
+import { Box, Typography, CircularProgress, Button, Alert, Paper } from '@/components/ui/MuiShim';
 import PostCard from '@/components/posts/PostCard';
 import PostForm from '@/components/posts/PostForm';
 import { Post, Profile } from '@/types';

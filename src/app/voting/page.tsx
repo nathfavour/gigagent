@@ -17,10 +17,7 @@ import {
   Alert,
   TextField,
   InputAdornment
-} from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import GavelIcon from '@mui/icons-material/Gavel';
-import HowToVoteIcon from '@mui/icons-material/HowToVote';
+} from '@/components/ui/MuiShim';
 // Abstraxion/Xion removed — using placeholders
 // Abstraxion removed — wallet-related data not available
 const useAbstraxionAccount = () => ({ data: null, isConnected: false });

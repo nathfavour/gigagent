@@ -1,6 +1,5 @@
 import React from 'react';
-import { Box, Typography, IconButton } from '@mui/material';
-import { ChevronLeft, ChevronRight } from '@mui/icons-material';
+import { Box, Typography, IconButton } from '@/components/ui/MuiShim';
 
 interface CalendarHeaderProps {
   currentMonth: Date;

@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Box, Chip, Divider, Button, Skeleton } from '@mui/material';
-import { AccountBalanceWallet, ContentCopy, Refresh } from '@mui/icons-material';
+import { Card, CardContent, Typography, Box, Chip, Divider, Button, Skeleton } from '@/components/ui/MuiShim';
 
 interface WalletCardProps {
   wallet?: {

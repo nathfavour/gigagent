@@ -23,7 +23,7 @@ import {
   DialogContentText,
   DialogActions,
   Grid
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Security, 
   Email, 
@@ -33,7 +33,6 @@ import {
   Key, 
   LockOpen, 
   Warning
-} from '@mui/icons-material';
 import { 
   listMfaFactors, 
   createMfaRecoveryCodes, 

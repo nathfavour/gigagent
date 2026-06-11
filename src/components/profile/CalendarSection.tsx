@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Paper, Typography, Box, Grid } from '@mui/material';
-import { Today } from '@mui/icons-material';
+import { Paper, Typography, Box, Grid } from '@/components/ui/MuiShim';
 import { CalendarHeader } from '@/components/profile/calendar/CalendarHeader';
 import { CalendarDaysOfWeek } from '@/components/profile/calendar/CalendarDaysOfWeek';
 import { CalendarDaysInMonth } from '@/components/profile/calendar/CalendarDaysInMonth';

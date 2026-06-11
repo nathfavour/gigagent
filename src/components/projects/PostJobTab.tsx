@@ -19,12 +19,7 @@ import {
   alpha,
   Slide,
   CircularProgress
-} from '@mui/material';
-import AccountBalanceWalletIcon from '@mui/icons-material/AccountBalanceWallet';
-import WorkIcon from '@mui/icons-material/Work';
-import ScheduleIcon from '@mui/icons-material/Schedule';
-import StarRateIcon from '@mui/icons-material/StarRate';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+} from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 import { createJob } from '@/lib/appwrite';
 

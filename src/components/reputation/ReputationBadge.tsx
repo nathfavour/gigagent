@@ -1,14 +1,13 @@
 'use client';
 
 import React from 'react';
-import { Chip, Tooltip, Box } from '@mui/material';
+import { Chip, Tooltip, Box } from '@/components/ui/MuiShim';
 import { 
   Verified, 
   Star, 
   Security, 
   Warning,
   CheckCircle 
-} from '@mui/icons-material';
 
 interface ReputationBadgeProps {
   score: number;

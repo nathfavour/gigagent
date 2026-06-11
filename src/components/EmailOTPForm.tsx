@@ -11,8 +11,7 @@ import {
   Checkbox,
   FormControlLabel,
   Paper
-} from '@mui/material';
-import { Email, VpnKey } from '@mui/icons-material';
+} from '@/components/ui/MuiShim';
 import { createEmailOTP, verifyEmailOTP, signOut } from '@/utils/api';
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'next/navigation';

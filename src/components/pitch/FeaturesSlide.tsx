@@ -1,4 +1,4 @@
-import { Box, Typography, Grid, Paper } from "@mui/material";
+import { Box, Typography, Grid, Paper } from '@/components/ui/MuiShim';
 
 const features = [
   { icon: "🔍", title: "Smart Matching", desc: "AI-powered talent discovery, enhanced by on-chain reputation" },

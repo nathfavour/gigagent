@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Alert, Button, Typography } from '@mui/material';
+import { Box, Alert, Button, Typography } from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import { shouldShowSignUpPrompt } from '@/utils/guestSession';
 import Link from 'next/link';

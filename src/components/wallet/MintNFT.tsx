@@ -8,7 +8,7 @@ import {
   CircularProgress, 
   Alert, 
   Link
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { useWriteContract, useWaitForTransactionReceipt } from '@/hooks/useContract';
 import { ERC721_ABI } from '@/utils/contractUtils';

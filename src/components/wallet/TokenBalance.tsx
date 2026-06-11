@@ -6,7 +6,7 @@ import {
   Alert,
   Paper,
   Skeleton
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { useReadContract, useTokenBalance } from '@/hooks/useContract';
 import { ERC20_ABI } from '@/utils/contractUtils';

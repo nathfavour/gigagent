@@ -20,18 +20,7 @@ import {
   ListItemIcon,
   Paper,
   Alert
-} from "@mui/material";
-import DeleteIcon from '@mui/icons-material/Delete';
-import EditIcon from '@mui/icons-material/Edit';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import PendingIcon from '@mui/icons-material/Pending';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import DoNotDisturbIcon from '@mui/icons-material/DoNotDisturb';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import PaidIcon from '@mui/icons-material/Paid';
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import PersonIcon from '@mui/icons-material/Person';
-import WorkIcon from '@mui/icons-material/Work';
+} from '@/components/ui/MuiShim';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

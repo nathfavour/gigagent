@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Chip, Divider } from '@mui/material';
+import { Box, Typography, Button, Chip, Divider } from '@/components/ui/MuiShim';
 
 interface PaymentMethodsListProps {
   paymentMethods: any[];

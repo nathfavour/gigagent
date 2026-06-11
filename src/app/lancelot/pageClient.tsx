@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Container, useTheme } from "@mui/material";
+import { Box, Container, useTheme } from '@/components/ui/MuiShim';
 import LancelotHeader from "@/components/lancelot/LancelotHeader";
 import LancelotPrompts from "@/components/lancelot/LancelotPrompts";
 import LancelotChatCard from "@/components/lancelot/LancelotChatCard";

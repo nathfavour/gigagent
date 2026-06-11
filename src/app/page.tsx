@@ -13,7 +13,6 @@ import {
   JOB_POSTINGS_COLLECTION_ID,
   JOBS_DATABASE_ID,
 } from '@/lib/env';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import {
   Box,
   Container,
@@ -21,7 +20,7 @@ import {
   Paper,
   Typography,
   useTheme,
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import Head from 'next/head';
 import React, {
   useEffect,

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Typography, TextField, Button, Chip } from '@mui/material';
+import { Box, Typography, TextField, Button, Chip } from '@/components/ui/MuiShim';
 import { createJob } from "@/lib/appwrite";
 
 interface CreateProjectTabProps {

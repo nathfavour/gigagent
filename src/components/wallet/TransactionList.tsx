@@ -11,8 +11,7 @@ import {
   Paper,
   Alert,
   Link
-} from '@mui/material';
-import { ArrowUpward, ArrowDownward, Pending } from '@mui/icons-material';
+} from '@/components/ui/MuiShim';
 
 interface Transaction {
   $id: string;

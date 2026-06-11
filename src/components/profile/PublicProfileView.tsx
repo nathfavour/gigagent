@@ -1,8 +1,7 @@
 "use client";
 
 import { Profile } from '@/types';
-import { Avatar, Box, Typography, Paper, Chip, Link, Grid } from '@mui/material';
-import { Business, Person, Code, LocationOn, Schedule } from '@mui/icons-material';
+import { Avatar, Box, Typography, Paper, Chip, Link, Grid } from '@/components/ui/MuiShim';
 
 interface PublicProfileViewProps {
   profile: Profile;

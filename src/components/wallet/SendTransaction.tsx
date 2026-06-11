@@ -9,7 +9,7 @@ import {
   Paper, 
   Divider,
   Link as MuiLink
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { parseEther, waitForTransaction } from '@/utils/transactionUtils';
 

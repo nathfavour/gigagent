@@ -16,7 +16,7 @@ import {
   ListItemSecondaryAction,
   Switch,
   IconButton
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Security, 
   Key, 
@@ -26,7 +26,6 @@ import {
   Google, 
   Twitter, 
   LinkedIn 
-} from '@mui/icons-material';
 import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
 import MfaSetup from '@/components/profile/MfaSetup';

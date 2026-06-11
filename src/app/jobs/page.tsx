@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Box, CircularProgress, Typography } from "@mui/material";
+import { Box, CircularProgress, Typography } from '@/components/ui/MuiShim';
 
 export default function JobsRedirectPage() {
   const router = useRouter();

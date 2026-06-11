@@ -18,7 +18,7 @@ import {
   Collapse,
   Tabs,
   Tab
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Notifications as NotificationsIcon,
   Chat as ChatIcon,
@@ -26,7 +26,6 @@ import {
   ExpandMore,
   Close as CloseIcon,
   DragHandle as DragHandleIcon
-} from '@mui/icons-material';
 import { motion } from 'framer-motion';
 
 // Define secondary sidebar width

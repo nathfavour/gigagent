@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import { Box, CircularProgress, Typography, Alert } from '@mui/material';
+import { Box, CircularProgress, Typography, Alert } from '@/components/ui/MuiShim';
 import { Models } from 'appwrite'; // Import Models
 
 const MAX_REFRESH_ATTEMPTS = 5; // Increased from 3

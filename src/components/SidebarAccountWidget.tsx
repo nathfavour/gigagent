@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import { Box, Avatar, Typography, Button, Menu, MenuItem, useTheme } from '@mui/material';
+import { Box, Avatar, Typography, Button, Menu, MenuItem, useTheme } from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 
 // Add ethereum window type declaration

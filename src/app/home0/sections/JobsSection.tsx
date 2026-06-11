@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent, Container, useTheme, CircularProgress } from '@mui/material';
+import { Box, Typography, Grid, Card, CardContent, Container, useTheme, CircularProgress } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 
 const MotionCard = motion(Card);

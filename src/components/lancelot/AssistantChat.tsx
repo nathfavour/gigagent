@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from "@mui/material";
+import { Input } from '@/components/ui/MuiShim';
 
 interface Message {
   role: "user" | "assistant";

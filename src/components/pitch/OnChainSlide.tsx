@@ -1,4 +1,4 @@
-import { Box, Typography, Grid, Paper } from "@mui/material";
+import { Box, Typography, Grid, Paper } from '@/components/ui/MuiShim';
 
 const capabilities = [
   {

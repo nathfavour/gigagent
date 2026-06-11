@@ -12,11 +12,7 @@ import {
   DialogActions,
   InputAdornment,
   IconButton
-} from '@mui/material';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import ErrorIcon from '@mui/icons-material/Error';
-import CloseIcon from '@mui/icons-material/Close';
-import EditIcon from '@mui/icons-material/Edit';
+} from '@/components/ui/MuiShim';
 import { checkUsernameAvailability, updateUserProfile } from '@/utils/api';
 import { useRouter } from 'next/navigation';
 import { APP_URL } from '@/lib/env';

@@ -29,14 +29,13 @@ import {
   Select,
   FormControl,
   InputLabel
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import {
   Refresh as RefreshIcon,
   FilterList as FilterListIcon,
   Info as InfoIcon,
   Receipt as ReceiptIcon,
   KeyboardArrowDown as ExpandMoreIcon
-} from '@mui/icons-material';
 
 export default function TransactionHistoryPage() {
   const {

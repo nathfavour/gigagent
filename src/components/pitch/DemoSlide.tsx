@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, Button, Stack, Grid } from "@mui/material";
+import { Box, Typography, Paper, Button, Stack, Grid } from '@/components/ui/MuiShim';
 
 export default function DemoSlide() {
   return (

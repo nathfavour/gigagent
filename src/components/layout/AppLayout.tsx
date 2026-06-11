@@ -2,7 +2,7 @@
 
 import React, { ReactNode, useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import { Box, useMediaQuery, useTheme } from '@mui/material';
+import { Box, useMediaQuery, useTheme } from '@/components/ui/MuiShim';
 import Sidebar from '@/components/Sidebar';
 import Header from '@/components/Header';
 import SecondarySidebar from '@/components/SecondarySidebar';

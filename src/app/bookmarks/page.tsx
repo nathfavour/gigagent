@@ -14,15 +14,11 @@ import {
   Divider,
   Alert,
   Paper
-} from "@mui/material";
+} from '@/components/ui/MuiShim';
 import { motion } from "framer-motion";
 import { databases } from "@/utils/api";
 import { useAuth } from "@/contexts/AuthContext";
 import Link from "next/link";
-import BookmarkIcon from '@mui/icons-material/Bookmark';
-import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
-import VisibilityIcon from '@mui/icons-material/Visibility';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { useRouter } from "next/navigation";
 import { Query } from 'appwrite';
 import { USER_BOOKMARKS_COLLECTION_ID, JOBS_DATABASE_ID, JOB_POSTINGS_COLLECTION_ID, USER_BOOKMARKS_DATABASE_ID } from '@/lib/env';

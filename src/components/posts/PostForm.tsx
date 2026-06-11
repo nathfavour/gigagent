@@ -12,13 +12,12 @@ import {
   Divider, 
   CircularProgress, 
   Paper
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Image as ImageIcon, 
   AttachFile as AttachFileIcon, 
   Close as CloseIcon, 
   Add as AddIcon 
-} from '@mui/icons-material';
 import { Post, Profile } from '@/types';
 import { useAuth } from '@/contexts/AuthContext';
 import profileService from '@/services/profileService';

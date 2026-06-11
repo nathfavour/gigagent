@@ -15,12 +15,7 @@ import {
   Chip,
   Avatar,
   IconButton,
-} from "@mui/material";
-import AddPhotoAlternateIcon from "@mui/icons-material/AddPhotoAlternate";
-import DeleteIcon from "@mui/icons-material/Delete";
-import ScheduleIcon from "@mui/icons-material/Schedule";
-import CampaignIcon from "@mui/icons-material/Campaign";
-import EventNoteIcon from "@mui/icons-material/EventNote";
+} from '@/components/ui/MuiShim';
 
 const mockScheduledAds = [
   {

@@ -10,9 +10,7 @@ import {
   Avatar,
   Chip,
   Stack,
-} from "@mui/material";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import GroupIcon from "@mui/icons-material/Group";
+} from '@/components/ui/MuiShim';
 import GroupPosts from "@/components/groups/GroupPosts";
 import GroupMessages from "@/components/groups/GroupMessages";
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { Suspense } from 'react';
-import { Box, CircularProgress, Typography } from '@mui/material';
+import { Box, CircularProgress, Typography } from '@/components/ui/MuiShim';
 
 export default function UserProfileLayout({
   children,

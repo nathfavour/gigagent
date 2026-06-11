@@ -13,11 +13,9 @@ import {
   Alert,
   Snackbar,
   CircularProgress
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import { updateUserProfile, checkUsernameAvailability } from '@/utils/api';
-import SaveIcon from '@mui/icons-material/Save';
-import CloseIcon from '@mui/icons-material/Close';
 
 interface ProfileEditViewProps {
   profile: any;

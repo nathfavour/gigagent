@@ -3,7 +3,7 @@ import React, { ReactNode, useEffect, useState } from 'react';
 import { ThemeProvider as MUIThemeProvider } from '@mui/material/styles';
 import { getTheme } from '@/theme';
 import { ThemeProvider as NextThemesProvider, useTheme } from 'next-themes';
-import { PaletteMode, CssBaseline } from '@mui/material';
+import { PaletteMode, CssBaseline } from '@/components/ui/MuiShim';
 
 // Custom hook to use theme with MUI
 export const useThemeContext = () => {

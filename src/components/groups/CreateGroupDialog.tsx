@@ -6,7 +6,7 @@ import {
   TextField,
   Button,
   Box,
-} from "@mui/material";
+} from '@/components/ui/MuiShim';
 import { useState } from "react";
 
 export default function CreateGroupDialog({

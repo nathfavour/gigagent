@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Box, Grid, Alert, Snackbar, CircularProgress } from "@mui/material";
+import { Box, Grid, Alert, Snackbar, CircularProgress } from '@/components/ui/MuiShim';
 import ProfileCard from '@/components/profile/ProfileCard';
 import ProfileForm from '@/components/profile/ProfileForm';
 import CalendarSection from '@/components/profile/CalendarSection';

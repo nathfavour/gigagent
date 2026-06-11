@@ -2,8 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Paper, Alert, Button, Divider, Tabs, Tab, 
-  useMediaQuery, Stack, Card, CardContent, Fade, useTheme } from '@mui/material';
-import { GitHub, Email, Link as LinkIcon, Google as GoogleIcon, Login } from '@mui/icons-material';
+  useMediaQuery, Stack, Card, CardContent, Fade, useTheme } from '@/components/ui/MuiShim';
 import { useRouter } from 'next/navigation';
 import { ConnectWallet } from '@/components/ConnectWallet';
 import { signUp, createMagicURLToken } from '@/utils/api';

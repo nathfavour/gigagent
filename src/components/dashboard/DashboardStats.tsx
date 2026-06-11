@@ -1,6 +1,5 @@
 import React from 'react';
-import { Box, Grid, Typography, IconButton, Card, CardContent, useTheme } from '@mui/material';
-import { ArrowUpward, MoreVert, Assessment, AccountBalance, WorkOutline, TrendingUp } from '@mui/icons-material';
+import { Box, Grid, Typography, IconButton, Card, CardContent, useTheme } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 
 const MotionCard = motion(Card);

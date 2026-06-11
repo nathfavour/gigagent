@@ -1,12 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, CircularProgress, Alert, Paper, Container, Button } from '@mui/material';
+import { Box, Typography, CircularProgress, Alert, Paper, Container, Button } from '@/components/ui/MuiShim';
 import { completeEmailVerification, createEmailVerification } from '@/utils/api';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import ErrorIcon from '@mui/icons-material/Error';
-import EmailIcon from '@mui/icons-material/Email';
 import Link from 'next/link';
 
 export default function VerifyEmail() {

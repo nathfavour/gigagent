@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Typography, Avatar, Button, CircularProgress, Paper } from "@mui/material";
+import { Box, Typography, Avatar, Button, CircularProgress, Paper } from '@/components/ui/MuiShim';
 import { motion } from "framer-motion";
 import { uploadFile, updateUserProfile } from '@/utils/api';
 import { useAuth } from "@/contexts/AuthContext";

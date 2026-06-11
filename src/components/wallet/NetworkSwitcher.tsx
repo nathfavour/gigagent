@@ -8,8 +8,7 @@ import {
   ListItemText,
   Typography,
   CircularProgress 
-} from '@mui/material';
-import { KeyboardArrowDown } from '@mui/icons-material';
+} from '@/components/ui/MuiShim';
 import { useMetaMask } from '@/hooks/useMetaMask';
 
 // Network configurations

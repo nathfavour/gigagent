@@ -10,7 +10,7 @@ import {
   Tabs,
   Tab,
   CircularProgress
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useMetaMask } from '@/hooks/useMetaMask';
 // Abstraxion/Xion removed
 import { TokenBalance } from '@/components/wallet/TokenBalance';

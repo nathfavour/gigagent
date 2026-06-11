@@ -1,5 +1,5 @@
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
-import { Box, CircularProgress, Typography, Alert, Backdrop } from '@mui/material';
+import { Box, CircularProgress, Typography, Alert, Backdrop } from '@/components/ui/MuiShim';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Account } from '@/components/Account';
 import { WalletOptions } from '@/components/WalletOptions';

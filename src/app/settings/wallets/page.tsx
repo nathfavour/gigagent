@@ -24,7 +24,7 @@ import {
   Grid,
   Chip,
   Divider,
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import {
   Add as AddIcon,
   Edit as EditIcon,
@@ -32,7 +32,6 @@ import {
   Check as CheckIcon,
   Star as StarIcon,
   StarBorder as StarBorderIcon,
-} from '@mui/icons-material';
 
 export default function WalletsSettingsPage() {
   const {

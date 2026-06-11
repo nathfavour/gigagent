@@ -11,13 +11,12 @@ import {
   LinearProgress,
   Grid,
   Divider
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   AccountBalance,
   Security,
   Verified,
   Warning
-} from '@mui/icons-material';
 import { getUserTrustScore, getActivationRequirements, activateUserAccount } from '@/utils/graphite';
 import ReputationBadge from '@/components/reputation/ReputationBadge';
 

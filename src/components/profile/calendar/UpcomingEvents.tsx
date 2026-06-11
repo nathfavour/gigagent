@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent } from '@mui/material';
+import { Box, Typography, Grid, Card, CardContent } from '@/components/ui/MuiShim';
 import { CalendarEvent } from '@/hooks/useCalendarEvents';
 // Import our custom date utilities
 import { formatDate } from '@/utils/dateUtils';

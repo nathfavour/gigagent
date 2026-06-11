@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, TextField, Button, Stack } from "@mui/material";
+import { Box, Typography, Paper, TextField, Button, Stack } from '@/components/ui/MuiShim';
 import { useState, useEffect, useCallback } from "react";
 import * as social from "@/lib/appwrites/social";
 import { useAuth } from "@/contexts/AuthContext";

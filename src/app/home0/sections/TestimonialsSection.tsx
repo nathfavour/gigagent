@@ -1,7 +1,6 @@
 import React from 'react';
-import { Box, Typography, Grid, Card, CardContent, Avatar, Divider, Container, useTheme } from '@mui/material';
+import { Box, Typography, Grid, Card, CardContent, Avatar, Divider, Container, useTheme } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
 const MotionCard = motion(Card);
 

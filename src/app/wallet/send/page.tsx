@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Box, Typography, Button, Paper, Alert } from '@mui/material';
+import { Box, Typography, Button, Paper, Alert } from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';

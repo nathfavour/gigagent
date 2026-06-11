@@ -1,7 +1,6 @@
 "use client";
 
-import { AppBar, Toolbar, Typography, Button, IconButton, Box, Menu, MenuItem } from "@mui/material";
-import { Notifications } from "@mui/icons-material";
+import { AppBar, Toolbar, Typography, Button, IconButton, Box, Menu, MenuItem } from '@/components/ui/MuiShim';
 import React, { useState, useEffect } from "react";
 import Image from 'next/image';
 import { motion } from "framer-motion";

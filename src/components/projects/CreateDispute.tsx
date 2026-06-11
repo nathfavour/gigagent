@@ -13,8 +13,7 @@ import {
   DialogActions,
   CircularProgress,
   Alert
-} from '@mui/material';
-import GavelIcon from '@mui/icons-material/Gavel';
+} from '@/components/ui/MuiShim';
 import { getXionContractAddress, createDisputeMsg } from '@/utils/xionContractUtils';
 
 interface CreateDisputeProps {

@@ -1,11 +1,9 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, CircularProgress, Alert, Paper, Container } from '@mui/material';
+import { Box, Typography, CircularProgress, Alert, Paper, Container } from '@/components/ui/MuiShim';
 import { createMagicURLSession } from '@/utils/api';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import ErrorIcon from '@mui/icons-material/Error';
 
 export default function VerifyMagicLink() {
   const [loading, setLoading] = useState(true);

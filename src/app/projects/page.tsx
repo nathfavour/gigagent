@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Box, Alert, CircularProgress, Tabs, Tab } from "@mui/material";
+import { Box, Alert, CircularProgress, Tabs, Tab } from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import BrowseProjectsTab from "@/components/projects/BrowseProjectsTab";
 import PostJobTab from "@/components/projects/PostJobTab";

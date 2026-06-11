@@ -16,12 +16,11 @@ import {
   TextField,
   InputAdornment,
   IconButton
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { useAuth } from '@/contexts/AuthContext';
 import { useWallet } from '@/hooks/useWallet';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { ContentCopy, Check } from '@mui/icons-material';
 
 // This would be replaced with a real QR code library
 const QRCode = ({ value, size = 200 }: { value: string; size?: number }) => {

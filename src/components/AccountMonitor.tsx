@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAccountEffect } from '@/hooks/useAccountEffect';
-import { Box, Typography, Alert } from '@mui/material';
+import { Box, Typography, Alert } from '@/components/ui/MuiShim';
 
 export function AccountMonitor() {
   const [status, setStatus] = React.useState<string | null>(null);

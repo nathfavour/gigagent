@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { Box } from '@mui/material';
+import { Box } from '@/components/ui/MuiShim';
 import { DisputeVoting } from '@/components/projects/DisputeVoting';
 
 import { getXionContractAddress, getDisputeMsg } from '@/utils/xionContractUtils';

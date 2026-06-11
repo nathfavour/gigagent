@@ -13,13 +13,12 @@ import {
   CircularProgress, 
   Alert, 
   Paper 
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 import { 
   Edit as EditIcon, 
   Delete as DeleteIcon, 
   Launch as LaunchIcon,
   Add as AddIcon
-} from '@mui/icons-material';
 import { listPortfolios, getFileViewUrl, BUCKET } from '@/lib/appwrite';
 import { Query } from 'appwrite';
 import type { Portfolios } from '@/types/appwrite.d';

@@ -24,8 +24,8 @@ import {
   DialogContent,
   Snackbar,
   Alert
-} from '@mui/material';
-import Grid from '@mui/material/Grid';
+} from '@/components/ui/MuiShim';
+import { Box as div } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
 import { useEffect, useState, useRef, useCallback } from 'react';
@@ -50,28 +50,6 @@ import type { Posts, Profiles } from '@/types/appwrite.d';
 import { useInView } from 'react-intersection-observer';
 
 // Icons
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import RepeatIcon from '@mui/icons-material/Repeat';
-import ShareIcon from '@mui/icons-material/Share';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import PublicIcon from '@mui/icons-material/Public';
-import LockIcon from '@mui/icons-material/Lock';
-import PeopleIcon from '@mui/icons-material/People';
-import ImageIcon from '@mui/icons-material/Image';
-import VideocamIcon from '@mui/icons-material/Videocam';
-import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import GridViewIcon from '@mui/icons-material/GridView';
-import SendIcon from '@mui/icons-material/Send';
-import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import BookmarkIcon from '@mui/icons-material/Bookmark';
-import RefreshIcon from '@mui/icons-material/Refresh';
-import CloseIcon from '@mui/icons-material/Close';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import CommentSection from '@/components/posts/CommentSection';
 
 // Import Query from Appwrite SDK

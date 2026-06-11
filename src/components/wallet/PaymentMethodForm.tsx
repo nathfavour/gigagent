@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, TextField, Button, FormControl, InputLabel, Select, MenuItem, FormHelperText, Typography, Alert } from '@mui/material';
+import { Box, TextField, Button, FormControl, InputLabel, Select, MenuItem, FormHelperText, Typography, Alert } from '@/components/ui/MuiShim';
 import { addPaymentMethod } from '@/utils/api';
 
 interface PaymentMethodFormProps {

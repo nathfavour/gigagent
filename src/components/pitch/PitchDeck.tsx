@@ -1,6 +1,6 @@
 "use client";
 
-import { Grid, Paper, Typography, Button, Box, Stack } from "@mui/material";
+import { Grid, Paper, Typography, Button, Box, Stack } from '@/components/ui/MuiShim';
 
 export default function PitchDeck() {
   return (

@@ -1,8 +1,7 @@
 import React from 'react';
-import { Box, Typography, Card, CardContent, Button, Container, useTheme, Chip, Grid } from '@mui/material';
+import { Box, Typography, Card, CardContent, Button, Container, useTheme, Chip, Grid } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Image from 'next/image';
 
 const projects = [

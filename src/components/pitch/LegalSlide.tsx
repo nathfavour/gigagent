@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, Stack } from "@mui/material";
+import { Box, Typography, Paper, Stack } from '@/components/ui/MuiShim';
 
 export default function LegalSlide() {
   return (

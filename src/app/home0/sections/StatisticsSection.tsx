@@ -1,10 +1,6 @@
 import React from 'react';
-import { Box, Typography, Grid, Container, useTheme, Paper } from '@mui/material';
+import { Box, Typography, Grid, Container, useTheme, Paper } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import GroupIcon from '@mui/icons-material/Group';
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
-import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 
 const statistics = [
   { value: '5K+', label: 'Freelancers', icon: <GroupIcon sx={{ fontSize: 40, color: 'primary.main' }} /> },

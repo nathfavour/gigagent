@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import { Box, CircularProgress, Typography, Paper, Alert } from '@mui/material';
+import { Box, CircularProgress, Typography, Paper, Alert } from '@/components/ui/MuiShim';
 import { motion } from 'framer-motion';
 import { getUserProfile, createUserProfile, account } from '@/utils/api';
 
