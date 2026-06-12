@@ -1,4 +1,4 @@
-import { Box, Typography, Avatar, Stack } from '@/components/ui/MuiShim';
+;
 
 export default function VisionSlide() {
   return (

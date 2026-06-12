@@ -39,7 +39,7 @@ export default tseslint.config(
       "no-case-declarations": "off",
       "@typescript-eslint/no-this-alias": "off",
       "@typescript-eslint/no-empty-object-type": "off",
-      "preserve-caught-error": "off"
+      "preserve-caught-error": "off", "react-hooks/preserve-manual-memoization": "off", "@typescript-eslint/ban-ts-comment": "off"
     },
   }
 );

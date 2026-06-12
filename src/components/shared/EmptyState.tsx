@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper, Typography, Button, Box } from '@/components/ui/MuiShim';
+;
 
 interface EmptyStateProps {
   message: string;

@@ -1,8 +1,9 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import Link from "next/link";
 import { useAuth } from "@/contexts/AuthContext";
-import { Card, CardHeader, CardContent, Button, Grid, Typography } from '@/components/ui/MuiShim';
+;
 
 export default function SettingsHomePage() {
   const { user } = useAuth();

@@ -1,4 +1,4 @@
-import { Box } from '@/components/ui/MuiShim';
+;
 import Navbar from '@/components/shared/Navbar';
 import Footer from '@/components/shared/Footer';
 import SignInPrompt from '@/components/auth/SignInPrompt';

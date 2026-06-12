@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { formatDistanceToNow } from 'date-fns';
 import { Post, Profile } from '@/types';
-import { Card, CardHeader, CardContent, CardActions, Avatar, Typography, IconButton, Box, Chip, Menu, MenuItem } from '@/components/ui/MuiShim';
+;
 import { useAuth } from '@/contexts/AuthContext';
 import { getFilePreviewUrl } from '@/lib/appwrites/storage';
 import { BUCKET as BUCKET_ID } from '@/lib/appwrites/constants';

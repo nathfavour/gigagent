@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Stack, IconButton, Container, useTheme } from '@/components/ui/MuiShim';
+;
 import { motion } from 'framer-motion';
 
 const MotionBox = motion(Box);

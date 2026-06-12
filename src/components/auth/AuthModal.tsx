@@ -1,28 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  Box,
-  Typography,
-  Button,
-  Divider,
-  Tabs,
-  Tab,
-  Stack,
-  Alert,
-  Fade,
-  IconButton,
-} from '@/components/ui/MuiShim';
-import {
-  Close as CloseIcon,
-  GitHub,
-  Email,
-  Link as LinkIcon,
-  Google as GoogleIcon,
-  Login,
+;
 import { useAuth } from '@/contexts/AuthContext';
 import { signIn, signUp, createMagicURLToken } from '@/utils/api';
 import { useRouter } from 'next/navigation';

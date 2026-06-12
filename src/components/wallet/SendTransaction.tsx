@@ -1,15 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Button, 
-  TextField, 
-  Typography, 
-  CircularProgress, 
-  Alert, 
-  Paper, 
-  Divider,
-  Link as MuiLink
-} from '@/components/ui/MuiShim';
+;
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { parseEther, waitForTransaction } from '@/utils/transactionUtils';
 

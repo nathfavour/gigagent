@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Button, 
-  Menu, 
-  MenuItem, 
-  ListItemIcon, 
-  ListItemText,
-  Typography,
-  CircularProgress 
-} from '@/components/ui/MuiShim';
+;
 import { useMetaMask } from '@/hooks/useMetaMask';
 
 // Network configurations

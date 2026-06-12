@@ -1,31 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  TextField, 
-  Button, 
-  Paper, 
-  Alert, 
-  CircularProgress,
-  Divider,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  ListItemSecondaryAction,
-  Switch,
-  IconButton
-} from '@/components/ui/MuiShim';
-import { 
-  Security, 
-  Key, 
-  Lock, 
-  DeleteOutline, 
-  GitHub, 
-  Google, 
-  Twitter, 
-  LinkedIn 
+;
 import { motion } from 'framer-motion';
 import { useAuth } from '@/contexts/AuthContext';
 import MfaSetup from '@/components/profile/MfaSetup';

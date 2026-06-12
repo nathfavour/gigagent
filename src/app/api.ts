@@ -13,8 +13,8 @@ import {
 
 // Initialize the Appwrite client
 const client = new Client()
-    .setEndpoint(ENDPOINT)
-    .setProject(PROJECT_ID);
+    .setEndpoint(ENDPOINT || "http://localhost/v1")
+    .setProject(PROJECT_ID || "placeholder");
 
 // Initialize Appwrite services
 const account = new Account(client);

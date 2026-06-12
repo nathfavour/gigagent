@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Grid, Container, useTheme, Paper } from '@/components/ui/MuiShim';
+;
 import { motion } from 'framer-motion';
 
 const statistics = [

@@ -1,4 +1,4 @@
-import { Box, Typography, IconButton, Tooltip, useTheme } from '@/components/ui/MuiShim';
+;
 import { Badge } from "@/components/ui/badge";
 
 export default function LancelotPrompts() {

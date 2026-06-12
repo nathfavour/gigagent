@@ -1,16 +1,5 @@
 import { useState } from "react";
-import {
-  Box,
-  Typography,
-  Tabs,
-  Tab,
-  Button,
-  Divider,
-  IconButton,
-  Avatar,
-  Chip,
-  Stack,
-} from '@/components/ui/MuiShim';
+;
 import GroupPosts from "@/components/groups/GroupPosts";
 import GroupMessages from "@/components/groups/GroupMessages";
 

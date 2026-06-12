@@ -1,9 +1,10 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import { useState, useRef, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Input } from '@/components/ui/MuiShim';
+;
 
 interface Message {
   role: "user" | "assistant";

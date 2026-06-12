@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Grid, Container, AppBar, Toolbar, useTheme, Stack, useMediaQuery, IconButton, Drawer, List, ListItem } from '@/components/ui/MuiShim';
+;
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';

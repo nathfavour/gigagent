@@ -1,26 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { 
-  Box, 
-  Typography, 
-  Grid, 
-  Card, 
-  CardContent, 
-  Button, 
-  Chip, 
-  IconButton,
-  Menu,
-  MenuItem,
-  Divider,
-  useTheme,
-  Badge,
-  Stack,
-  Avatar,
-  Tabs,
-  Tab,
-  ListItemIcon,
-  Paper,
-  Alert
-} from '@/components/ui/MuiShim';
+;
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 

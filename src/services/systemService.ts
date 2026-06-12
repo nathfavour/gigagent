@@ -153,7 +153,7 @@ class SystemService extends BaseService {
   async getMetrics(metricName: string, startDate?: string, endDate?: string, limit: number = 100): Promise<SystemMetric[]> {
     return this.handleRequest(
       async () => {
-        let queries = [
+        const queries = [
           Query.equal('name', metricName),
           Query.orderDesc('timestamp'),
           Query.limit(limit)
@@ -227,7 +227,7 @@ class SystemService extends BaseService {
   ): Promise<SystemAuditLog[]> {
     return this.handleRequest(
       async () => {
-        let queries: string[] = [Query.orderDesc('timestamp')];
+        const queries: string[] = [Query.orderDesc('timestamp')];
         
         if (options.userId) {
           queries.push(Query.equal('userId', options.userId));

@@ -1,31 +1,8 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Divider, 
-  IconButton, 
-  Avatar, 
-  Badge, 
-  List, 
-  ListItem, 
-  ListItemAvatar, 
-  ListItemText,
-  Paper,
-  useTheme,
-  Tooltip,
-  Collapse,
-  Tabs,
-  Tab
-} from '@/components/ui/MuiShim';
-import { 
-  Notifications as NotificationsIcon,
-  Chat as ChatIcon,
-  ExpandLess,
-  ExpandMore,
-  Close as CloseIcon,
-  DragHandle as DragHandleIcon
+;
 import { motion } from 'framer-motion';
 
 // Define secondary sidebar width

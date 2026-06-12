@@ -1,7 +1,8 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import React, { useState } from 'react';
-import { Button, Typography, Badge, Box, CircularProgress } from '@/components/ui/MuiShim';
+;
 
 interface SocialButtonProps {
   type: 'follow' | 'connect';

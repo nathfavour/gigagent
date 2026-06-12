@@ -1,5 +1,5 @@
-import { createTheme, ThemeOptions } from '@mui/material/styles';
-import { PaletteMode } from '@mui/material';
+import { createTheme, ThemeOptions } from '@/components/ui/MuiShim';
+import { PaletteMode } from '@/components/ui/MuiShim';
 
 // Properly augment the theme types
 declare module '@mui/material/styles' {

@@ -1,14 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Button, 
-  TextField, 
-  Typography, 
-  Paper, 
-  CircularProgress, 
-  Alert, 
-  Link
-} from '@/components/ui/MuiShim';
+;
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { useWriteContract, useWaitForTransactionReceipt } from '@/hooks/useContract';
 import { ERC721_ABI } from '@/utils/contractUtils';

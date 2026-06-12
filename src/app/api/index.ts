@@ -7,8 +7,8 @@ import {
 const client = new Client();
 
 client
-  .setEndpoint(APPWRITE_ENDPOINT)
-  .setProject(APPWRITE_PROJECT_ID);
+  .setEndpoint(APPWRITE_ENDPOINT || "http://localhost/v1")
+  .setProject(APPWRITE_PROJECT_ID || "placeholder");
 
 export const account = new Account(client);
 export const databases = new Databases(client);

@@ -1,19 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Box,
-  Typography,
-  Grid,
-  Card,
-  CardContent,
-  Button,
-  Chip,
-  Avatar,
-  CircularProgress,
-  useTheme,
-  Paper,
-  TextField,
-  InputAdornment
-} from '@/components/ui/MuiShim';
+;
 import Link from 'next/link';
 import { listProfiles } from "@/lib/appwrite";
 import type { Profiles } from "@/types/appwrite.d";

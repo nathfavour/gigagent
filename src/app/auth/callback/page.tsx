@@ -3,7 +3,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import { Box, CircularProgress, Typography, Alert } from '@/components/ui/MuiShim';
+;
 import { Models } from 'appwrite'; // Import Models
 
 const MAX_REFRESH_ATTEMPTS = 5; // Increased from 3
@@ -87,7 +87,7 @@ export default function AuthCallbackPage() {
 
     // Cleanup function to clear timeout if component unmounts
     // (though unlikely on a callback page)
-    let timeoutId: NodeJS.Timeout | null = null;
+    const timeoutId: NodeJS.Timeout | null = null;
     return () => {
       if (timeoutId) clearTimeout(timeoutId);
     };
@@ -115,7 +115,7 @@ export default function AuthCallbackPage() {
         <>
           <CircularProgress sx={{ mb: 2 }} />
           {/* Display attempt count dynamically */}
-          <Typography>Finalizing authentication (Attempt {attemptCount.current})...</Typography>
+          <Typography>Finalizing authentication ...</Typography>
         </>
       )}
       {error && (

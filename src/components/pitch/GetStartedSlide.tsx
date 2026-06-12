@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, Button, Stack } from '@/components/ui/MuiShim';
+;
 
 export default function GetStartedSlide() {
   return (

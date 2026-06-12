@@ -1,7 +1,7 @@
 import {
   SxProps,
   Theme,
-} from '@mui/material';
+} from '@/components/ui/MuiShim';
 
 // filepath: /home/nathfavour/Documents/code/gigagent/gigagent/src/utils/themeUtils.ts
 

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { Box, Typography, TextField, Button, Avatar, Paper, Stack } from '@/components/ui/MuiShim';
+;
 import { useAuth } from '@/contexts/AuthContext';
 import * as posts from '@/lib/appwrites/posts';
 import { Query } from 'appwrite';

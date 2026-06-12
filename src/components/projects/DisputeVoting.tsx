@@ -4,21 +4,7 @@
 
 
 import React, { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Button, 
-  Card, 
-  CardContent, 
-  Grid,
-  Avatar,
-  Divider,
-  CircularProgress,
-  Alert,
-  Chip,
-  LinearProgress,
-  Paper
-} from '@/components/ui/MuiShim';
+;
 // Abstraxion/Xion removed
 import { 
   getXionContractAddress, 
@@ -86,7 +72,7 @@ export const DisputeVoting: React.FC<DisputeVotingProps> = ({
     fetchDisputeInfo();
   }, [projectId]);
 
-  const Abstraxion = (_props: any) => null;
+  
   
   // Calculate vote percentages
   const totalVotes = dispute ? (dispute.votes_for_client + dispute.votes_for_freelancer) : 0;
@@ -367,7 +353,7 @@ export const DisputeVoting: React.FC<DisputeVotingProps> = ({
       </CardContent>
       
       {/* Abstraxion Modal */}
-      <Abstraxion onClose={() => setShowModal(false)} />
+      null
     </Card>
   );
 };

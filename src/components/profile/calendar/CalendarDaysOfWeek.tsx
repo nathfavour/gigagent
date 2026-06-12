@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@/components/ui/MuiShim';
+;
 
 export function CalendarDaysOfWeek() {
   const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

@@ -1,22 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import {
-  Card,
-  CardContent,
-  Typography,
-  Box,
-  Button,
-  Alert,
-  LinearProgress,
-  Grid,
-  Divider
-} from '@/components/ui/MuiShim';
-import { 
-  AccountBalance,
-  Security,
-  Verified,
-  Warning
+;
 import { getUserTrustScore, getActivationRequirements, activateUserAccount } from '@/utils/graphite';
 import ReputationBadge from '@/components/reputation/ReputationBadge';
 

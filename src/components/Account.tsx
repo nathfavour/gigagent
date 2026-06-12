@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Avatar, Box, Button, Menu, MenuItem, ListItemIcon, ListItemText, Divider, Tooltip, Typography } from '@/components/ui/MuiShim';
+;
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';

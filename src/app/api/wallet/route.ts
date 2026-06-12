@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import getUserWallets from "@/services/financeService";
 import createUserWallet from "@/services/financeService";
 import updateWallet from "@/services/financeService";
-import deleteWallet from "@/services/financeService";``
-import setPrimaryWallet from "@/services/financeService";``
+import deleteWallet from "@/services/financeService";
+import setPrimaryWallet from "@/services/financeService";
 
 import { validateSession } from "@/utils/api";
 

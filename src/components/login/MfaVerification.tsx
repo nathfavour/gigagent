@@ -1,21 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  TextField, 
-  Button, 
-  Paper, 
-  Alert,
-  CircularProgress,
-  Tabs,
-  Tab,
-  InputAdornment
-} from '@/components/ui/MuiShim';
-import { 
-  Security,
-  Key,
-  Email
+;
 import { 
   createMfaChallenge, 
   updateMfaChallenge 

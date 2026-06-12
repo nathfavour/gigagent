@@ -1,18 +1,5 @@
 import { useState, useEffect } from 'react';
-import { 
-  TextField, 
-  Button, 
-  Box, 
-  CircularProgress, 
-  Typography, 
-  Alert, 
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogActions,
-  InputAdornment,
-  IconButton
-} from '@/components/ui/MuiShim';
+;
 import { checkUsernameAvailability, updateUserProfile } from '@/utils/api';
 import { useRouter } from 'next/navigation';
 import { APP_URL } from '@/lib/env';

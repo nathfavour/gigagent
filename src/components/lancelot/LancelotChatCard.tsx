@@ -1,4 +1,4 @@
-import { Box, Paper, Divider, Typography, useTheme } from '@/components/ui/MuiShim';
+;
 import AssistantChat from "@/components/lancelot/AssistantChat";
 
 export default function LancelotChatCard() {

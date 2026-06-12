@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '@/components/Header';
-import { Box } from '@/components/ui/MuiShim';
+;
 
 interface MainLayoutProps {
   children: React.ReactNode;

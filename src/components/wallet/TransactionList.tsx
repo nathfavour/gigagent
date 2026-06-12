@@ -1,17 +1,5 @@
 import React from 'react';
-import {
-  Box,
-  Typography,
-  List,
-  ListItem,
-  ListItemText,
-  Divider,
-  Chip,
-  CircularProgress,
-  Paper,
-  Alert,
-  Link
-} from '@/components/ui/MuiShim';
+;
 
 interface Transaction {
   $id: string;

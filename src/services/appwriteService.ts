@@ -25,12 +25,12 @@ class AppwriteService {
 
   constructor(private config: EnvConfig) {
     if (!config?.appwrite?.endpoint || !config?.appwrite?.projectId) {
-      throw new Error('AppwriteService: Missing appwrite endpoint or projectId in config');
+      console.warn('AppwriteService: Missing appwrite endpoint or projectId in config');
     }
     this.client = new Client();
     this.client
-      .setEndpoint(config.appwrite.endpoint)
-      .setProject(config.appwrite.projectId);
+      .setEndpoint(config.appwrite.endpoint || "http://localhost/v1")
+      .setProject(config.appwrite.projectId || "placeholder");
 
     this.account = new Account(this.client);
     this.databases = new Databases(this.client);

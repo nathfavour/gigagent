@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Typography } from '@/components/ui/MuiShim';
+;
 import { CalendarEvent } from '@/hooks/useCalendarEvents';
 // Import our custom date utilities instead of relying on date-fns
 import { formatDate } from '@/utils/dateUtils';

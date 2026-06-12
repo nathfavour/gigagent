@@ -1,15 +1,8 @@
 'use client';
 
 import React from 'react';
-import { Chip, Tooltip, Box } from '@/components/ui/MuiShim';
-import { 
-  Verified, 
-  Star, 
-  Security, 
-  Warning,
-  CheckCircle 
-
-interface ReputationBadgeProps {
+;
+export interface ReputationBadgeProps {
   score: number;
   level: string;
   isVerified: boolean;

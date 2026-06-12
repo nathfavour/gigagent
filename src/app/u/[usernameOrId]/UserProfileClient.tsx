@@ -1,25 +1,8 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import { useState, useEffect, useMemo } from 'react'; // Added useMemo
-import { Container, Box, Typography, Paper, Grid, Avatar, Button, Tabs, Tab, Divider, Chip, CircularProgress, Alert, TextField, IconButton, Snackbar } from '@/components/ui/MuiShim';
-import { 
-  PersonOutline, 
-  Edit, 
-  Check, 
-  Close, 
-  Send, 
-  // EmailOutlined,  // Not used directly, can be removed if not needed elsewhere
-  // ContentCopy, // Not used directly
-  // VerifiedUser, // Not used directly
-  Settings as SettingsIcon, // Renamed for clarity
-  BookmarkBorder, 
-  WorkOutline, 
-  StarBorder,
-  Security as SecurityIcon,
-  AccountBalanceWallet as AccountBalanceWalletIcon,
-  Notifications as NotificationsIcon,
-  ListAlt as ListAltIcon, // For Activity Log tab
-  Assignment as AssignmentIcon // Added import for AssignmentIcon
+;
 import { useRouter, useParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { motion } from 'framer-motion';

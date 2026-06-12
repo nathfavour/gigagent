@@ -1,33 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Paper, 
-  List, 
-  ListItem, 
-  ListItemText, 
-  ListItemSecondaryAction, 
-  Switch,
-  Divider,
-  FormGroup,
-  FormControlLabel,
-  Button,
-  Snackbar,
-  Alert,
-  Chip,
-  Grid
-} from '@/components/ui/MuiShim';
-import { 
-  Notifications, 
-  Email, 
-  PhoneAndroid, 
-  Web, 
-  Campaign,
-  Assignment,
-  Payment,
-  Message,
-  Save
+;
 import { motion } from 'framer-motion';
 
 export default function NotificationsSection() {

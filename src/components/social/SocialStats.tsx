@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Box, Typography, Skeleton, Stack, Chip } from '@/components/ui/MuiShim';
+;
 import { getFollowersCount, getFollowingCount, getConnectionsCount } from '@/utils/api';
 
 interface SocialStatsProps {

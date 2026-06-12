@@ -1,6 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState, useEffect } from 'react';
-import { Box, Grid, Alert, Snackbar, CircularProgress } from '@/components/ui/MuiShim';
+;
 import ProfileCard from '@/components/profile/ProfileCard';
 import ProfileForm from '@/components/profile/ProfileForm';
 import CalendarSection from '@/components/profile/CalendarSection';

@@ -1,5 +1,5 @@
 import { useState, useCallback, useEffect } from 'react';
-import { Button, CircularProgress, Typography } from '@/components/ui/MuiShim';
+;
 import { useAuth } from '@/contexts/AuthContext';
 import {
   getConnection,

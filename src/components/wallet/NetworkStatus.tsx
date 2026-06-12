@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Chip } from '@/components/ui/MuiShim';
+;
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { NetworkSwitcher } from '@/components/wallet/NetworkSwitcher';
 

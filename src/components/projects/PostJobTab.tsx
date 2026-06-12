@@ -1,25 +1,5 @@
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  TextField, 
-  Button, 
-  FormControl, 
-  InputLabel, 
-  Select, 
-  MenuItem, 
-  Paper, 
-  Chip,
-  Divider,
-  Alert,
-  InputAdornment,
-  Stack,
-  Autocomplete,
-  useTheme,
-  alpha,
-  Slide,
-  CircularProgress
-} from '@/components/ui/MuiShim';
+;
 import { motion } from 'framer-motion';
 import { createJob } from '@/lib/appwrite';
 

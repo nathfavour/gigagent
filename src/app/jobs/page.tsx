@@ -1,8 +1,9 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Box, CircularProgress, Typography } from '@/components/ui/MuiShim';
+;
 
 export default function JobsRedirectPage() {
   const router = useRouter();

@@ -10,7 +10,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Button, Card, CardContent, Typography, Box, Alert } from '@/components/ui/MuiShim';
+;
 import { useRequireAuth } from '@/hooks/useRequireAuth';
 import { useAuth } from '@/contexts/AuthContext';
 

@@ -103,7 +103,7 @@ class SocialService {
 
   // Direct Messaging
   async sendDirectMessage(chatId: string, senderId: string, receiverId: string, messageContent: string, attachments?: File[]): Promise<DirectMessage> {
-    let attachmentFileIds: string[] = [];
+    const attachmentFileIds: string[] = [];
 
     if (attachments && attachments.length > 0) {
       for (const file of attachments) {
@@ -233,7 +233,7 @@ class SocialService {
   }
 
   async sendGroupMessage(groupId: string, senderId: string, messageContent: string, attachments?: File[]): Promise<GroupMessage> {
-    let attachmentFileIds: string[] = [];
+    const attachmentFileIds: string[] = [];
 
     if (attachments && attachments.length > 0) {
       for (const file of attachments) {

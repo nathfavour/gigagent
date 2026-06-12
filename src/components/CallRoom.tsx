@@ -42,7 +42,7 @@ export default function CallRoom({ callId, mode }: CallRoomProps) {
     return () => {
       mediaStream?.getTracks().forEach(track => track.stop());
     };
-    // eslint-disable-next-line
+     
   }, [mode]);
 
   useEffect(() => {
@@ -78,7 +78,7 @@ export default function CallRoom({ callId, mode }: CallRoomProps) {
       Object.values(peersRef.current).forEach((peer: any) => peer.destroy());
       setRemoteStreams([]);
     };
-    // eslint-disable-next-line
+     
   }, [callId, mediaStream]);
 
   function createPeer(userToSignal: string, callerId: string, stream: MediaStream | null) {

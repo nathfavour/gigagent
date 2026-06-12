@@ -1,12 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  CircularProgress, 
-  Alert,
-  Paper,
-  Skeleton
-} from '@/components/ui/MuiShim';
+;
 import { useMetaMask } from '@/hooks/useMetaMask';
 import { useReadContract, useTokenBalance } from '@/hooks/useContract';
 import { ERC20_ABI } from '@/utils/contractUtils';

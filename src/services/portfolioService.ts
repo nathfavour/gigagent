@@ -9,8 +9,8 @@ class PortfolioService {
   constructor() {
     this.client = new Client();
     this.client
-      .setEndpoint(env.NEXT_PUBLIC_APPWRITE_ENDPOINT)
-      .setProject(env.NEXT_PUBLIC_APPWRITE_PROJECT_ID);
+      .setEndpoint(env.NEXT_PUBLIC_APPWRITE_ENDPOINT || "http://localhost/v1")
+      .setProject(env.NEXT_PUBLIC_APPWRITE_PROJECT_ID || "placeholder");
     
     this.storage = new Storage(this.client);
   }

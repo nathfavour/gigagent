@@ -1,19 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Button, 
-  TextField, 
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogContentText,
-  DialogActions,
-  CircularProgress,
-  Alert
-} from '@/components/ui/MuiShim';
+;
 import { getXionContractAddress, createDisputeMsg } from '@/utils/xionContractUtils';
 
 interface CreateDisputeProps {

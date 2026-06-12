@@ -1,5 +1,6 @@
 // This page should not use any layout, sidebar, or header.
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import PitchDeck from "@/components/pitch/PitchDeck";
 

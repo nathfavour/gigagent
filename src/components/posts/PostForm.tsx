@@ -1,23 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { 
-  Box, 
-  TextField, 
-  Button, 
-  Chip, 
-  IconButton, 
-  Card, 
-  CardContent, 
-  Avatar, 
-  Typography, 
-  Divider, 
-  CircularProgress, 
-  Paper
-} from '@/components/ui/MuiShim';
-import { 
-  Image as ImageIcon, 
-  AttachFile as AttachFileIcon, 
-  Close as CloseIcon, 
-  Add as AddIcon 
+;
 import { Post, Profile } from '@/types';
 import { useAuth } from '@/contexts/AuthContext';
 import profileService from '@/services/profileService';

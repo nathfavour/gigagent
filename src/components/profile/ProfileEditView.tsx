@@ -1,19 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Paper, 
-  TextField, 
-  Button, 
-  FormControl, 
-  Divider,
-  Autocomplete,
-  Chip,
-  Alert,
-  Snackbar,
-  CircularProgress
-} from '@/components/ui/MuiShim';
+;
 import { useAuth } from '@/contexts/AuthContext';
 import { updateUserProfile, checkUsernameAvailability } from '@/utils/api';
 

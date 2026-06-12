@@ -1,24 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  Grid, 
-  Card, 
-  CardContent, 
-  CardMedia, 
-  CardActions, 
-  Button, 
-  Chip,
-  IconButton, 
-  CircularProgress, 
-  Alert, 
-  Paper 
-} from '@/components/ui/MuiShim';
-import { 
-  Edit as EditIcon, 
-  Delete as DeleteIcon, 
-  Launch as LaunchIcon,
-  Add as AddIcon
+;
 import { listPortfolios, getFileViewUrl, BUCKET } from '@/lib/appwrite';
 import { Query } from 'appwrite';
 import type { Portfolios } from '@/types/appwrite.d';

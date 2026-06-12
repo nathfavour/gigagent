@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Box, Chip, Divider, Button, Skeleton } from '@/components/ui/MuiShim';
+;
 
 interface WalletCardProps {
   wallet?: {

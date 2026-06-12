@@ -1,6 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useEffect, useState } from 'react';
-import { Box, Typography, CircularProgress, Alert, Paper, Container } from '@/components/ui/MuiShim';
+;
 import { createMagicURLSession } from '@/utils/api';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';

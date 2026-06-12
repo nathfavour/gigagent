@@ -1,8 +1,9 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useEffect, useState } from "react";
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-import { Box, CircularProgress, Typography, Paper, Alert } from '@/components/ui/MuiShim';
+;
 import { motion } from 'framer-motion';
 import { getUserProfile, createUserProfile, account } from '@/utils/api';
 

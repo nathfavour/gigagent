@@ -1,17 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState } from 'react';
-import { 
-  Box, 
-  TextField, 
-  Button, 
-  Typography, 
-  CircularProgress, 
-  Alert,
-  InputAdornment,
-  Checkbox,
-  FormControlLabel,
-  Paper
-} from '@/components/ui/MuiShim';
+;
 import { createEmailOTP, verifyEmailOTP, signOut } from '@/utils/api';
 import { useAuth } from '@/contexts/AuthContext';
 import { useRouter } from 'next/navigation';

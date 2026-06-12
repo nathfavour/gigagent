@@ -1,7 +1,8 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
 import { Profile } from '@/types';
-import { Avatar, Box, Typography, Paper, Chip, Link, Grid } from '@/components/ui/MuiShim';
+;
 
 interface PublicProfileViewProps {
   profile: Profile;

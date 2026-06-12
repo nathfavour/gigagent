@@ -1,17 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 import React, { useState, useEffect } from 'react';
-import { 
-  Box, 
-  Typography, 
-  TextField, 
-  Button, 
-  Paper, 
-  Container, 
-  Alert, 
-  CircularProgress,
-  InputAdornment,
-  IconButton
-} from '@/components/ui/MuiShim';
+;
 import { createPasswordRecovery, completePasswordRecovery } from '@/utils/api';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';

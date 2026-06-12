@@ -1,6 +1,7 @@
 "use client";
+import { Box, Typography, Button, IconButton, useTheme } from '@/components/ui/MuiShim';
 
-import { Grid, Paper, Typography, Button, Box, Stack } from '@/components/ui/MuiShim';
+;
 
 export default function PitchDeck() {
   return (
